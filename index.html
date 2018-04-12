@@ -23,11 +23,11 @@ layout: default
 
        <hr class="my-4">
 
-       <section id="projects">
-         <h2 class="text-center">Les outils</h2>
+       <section id="topics">
+         <h2 class="text-center">Boîte à outils</h2>
          <p class="text-center">Retrouvez ici les outils pour créer votre stratégie</p>
             <div class="row">
-              {% for item in site.projects %}
+              {% for item in site.topics %}
                   <div class="col-md-12 my-4">
                     <!--Card-->
                     <div class="card wow fadeIn" data-wow-delay="0.2s" style="visibility: visible;">
@@ -37,11 +37,11 @@ layout: default
                             {% if item.image %}
                             <img
                                 class="img-fluid"
-                                src="{{ site.url }}/images/projects/{{ item.image }}"
+                                src="{{ site.url }}/images/topics/{{ item.image }}"
                                 alt="projet-{{ item.title }}"
                                 srcset="
-                                    {{ site.url }}/images/projects/900/{{ item.image }} 900w,
-                                    {{ site.url }}/images/projects/450/{{ item.image }} 450w"
+                                    {{ site.url }}/images/topics/900/{{ item.image }} 900w,
+                                    {{ site.url }}/images/topics/450/{{ item.image }} 450w"
                                 sizes="
                                     (max-width: 991px) 100vw,
                                     20vw">
@@ -49,11 +49,11 @@ layout: default
                             {% else %}
                             <img
                                 class="img-fluid"
-                                src="{{ site.url }}/images/projects/{{ item.image }}"
+                                src="{{ site.url }}/images/topics/{{ item.image }}"
                                 alt="projet-{{ item.title }}"
                                 srcset="
-                                    {{ site.url }}/images/projects/900/default.jpg 900w,
-                                    {{ site.url }}/images/projects/450/default.jpg 450w"
+                                    {{ site.url }}/images/topics/900/default.jpg 900w,
+                                    {{ site.url }}/images/topics/450/default.jpg 450w"
                                 sizes="
                                     (max-width: 991px) 100vw,
                                     20vw">
@@ -86,7 +86,7 @@ layout: default
       <div class="elegant-color py-5">
         <div class="main-wrapper py-4">
           <div class="container-fluid">
-            <section id="events" class="dark-section">
+            <section id="contribute" class="dark-section">
               <div class="row">
 
                   <!--First column-->
