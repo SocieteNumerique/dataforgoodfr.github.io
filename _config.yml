@@ -19,7 +19,7 @@ lang: fr_FR
 markdown: kramdown
 
 collections:
-  projects:
+  topics:
     output: true
 
 number_of_season: 3

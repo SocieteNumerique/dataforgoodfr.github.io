@@ -1,16 +1,12 @@
 ---
-layout: project
-title: Quelles sont les étapes de ma stratégie ?
+layout: topic
+title: Comment financer ma stratégie locale d'inclusion numérique
 description:
 image:
 members:
-  - name: Matrice
-    role: Pour identifier les acteurs et lieux à impliquer.
+  - name: Fiche DLA
 
-  - name: Guide cartographie
-    role: Référencer les acteurs de son territoire.
-
-  - name: Cahier des charges des structures intermédiaires
+  - name: Fiche Grande Alliance
 ---
 
 Lorem ipsum dolor amet williamsburg occaecat vice blue bottle keytar leggings exercitation VHS yr organic XOXO bespoke migas aute ex. Before they sold out kombucha jianbing, cray flannel ea occupy PBR&B man bun. Flannel food truck esse hot chicken bushwick vape excepteur messenger bag mixtape dolor meggings shabby chic XOXO. PBR&B ut af nulla. Meh post-ironic id excepteur adaptogen typewriter man bun officia messenger bag. Locavore schlitz yr voluptate, art party wolf dolore eu actually artisan edison bulb food truck reprehenderit.

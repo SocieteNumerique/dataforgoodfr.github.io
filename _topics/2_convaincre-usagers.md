@@ -1,16 +1,16 @@
 ---
-layout: project
-title: Quelles sont les pratiques numériques des français ?
+layout: topic
+title: Comment donner envie d'utiliser les outils numériques ?
 description:
-image: adoptez-moi.jpg
+image:
 members:
-  - name: Baromètre du numérique
+  - name: Personas We Tech Care
 
-  - name: Capacity
+  - name: Personas SGMAP
 
-  - name: Cahiers connexion solidaire
+  - name: Personas ANSA
 
-  - name: Étude de la métropole de Lyon
+  - name: Verbatim
 ---
 
 Lorem ipsum dolor amet williamsburg occaecat vice blue bottle keytar leggings exercitation VHS yr organic XOXO bespoke migas aute ex. Before they sold out kombucha jianbing, cray flannel ea occupy PBR&B man bun. Flannel food truck esse hot chicken bushwick vape excepteur messenger bag mixtape dolor meggings shabby chic XOXO. PBR&B ut af nulla. Meh post-ironic id excepteur adaptogen typewriter man bun officia messenger bag. Locavore schlitz yr voluptate, art party wolf dolore eu actually artisan edison bulb food truck reprehenderit.

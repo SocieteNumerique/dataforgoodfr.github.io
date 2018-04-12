@@ -1,5 +1,5 @@
 ---
-layout: default-project
+layout: default-topic
 ---
 
 <!-- Main layout-->
@@ -7,7 +7,7 @@ layout: default-project
 <main>
   <div class="main-wrapper">
     <div class="container-fluid">
-      <section id="project">
+      <section id="topic">
         <h2 class="animated fadeIn mb-3">Contexte</h2>
         <p>{{ content }}</p>
       </section>
@@ -18,7 +18,7 @@ layout: default-project
       <h2 class="animated fadeIn mb-3">Les ressources</h2>
         <div class="row text-center">
           {% for member in page.members %}
-            <div class="col-lg-3 col-md-6 mb-r">
+            <div class="col-md-12 mb-r">
               <div class="card wow fadeIn" data-wow-delay="0.2s" style="visibility: visible;">
                 <div class="avatar mt-4">
                   {% if member.image %}

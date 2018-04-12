@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: topic
 title: Qu'est-ce qui est fait ailleurs ?
 description:
 image:
