@@ -2,7 +2,7 @@
 layout: topic
 title: Comment financer ma stratégie locale d'inclusion numérique
 description:
-image:
+image: picto5.png
 ressources:
   - name: Fiche DLA
     role: Viral enim PBR&B deep v, leggings shoreditch commodo incididunt.

@@ -2,7 +2,7 @@
 layout: topic
 title: Qu'est-ce qui est fait ailleurs ?
 description:
-image:
+image: picto1.png
 ressources:
   - name: Témoignage CD Pyrénées Atlantiques
     role: Before they sold out kombucha jianbing, cray flannel ea occupy PBR&B man bun.

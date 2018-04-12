@@ -2,7 +2,7 @@
 layout: topic
 title: Quelles sont les étapes de ma stratégie ?
 description:
-image:
+image: picto4.png
 ressources:
   - name: Matrice
     role: Pour identifier les acteurs et lieux à impliquer.

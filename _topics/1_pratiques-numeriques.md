@@ -2,7 +2,7 @@
 layout: topic
 title: Quelles sont les pratiques numériques des français ?
 description:
-image: adoptez-moi.jpg
+image: picto2.png
 ressources:
   - name: Baromètre du numérique
     role: Lorem ipsum dolor amet williamsburg occaecat vice blue bottle keytar leggings exercitation VHS yr organic XOXO bespoke migas aute ex.

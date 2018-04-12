@@ -2,7 +2,7 @@
 layout: topic
 title: Comment donner envie d'utiliser les outils numériques ?
 description:
-image:
+image: picto3.png
 ressources:
   - name: Personas We Tech Care
     role: Lorem ipsum dolor amet williamsburg occaecat vice blue bottle keytar leggings exercitation VHS yr organic XOXO bespoke migas aute ex.
