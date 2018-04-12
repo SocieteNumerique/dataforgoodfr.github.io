@@ -8,7 +8,9 @@ members:
 
   - name: Capacity
 
-  - name: Cahiers connexion solidaire 
+  - name: Cahiers connexion solidaire
+
+  - name: Étude de la métropole de Lyon
 ---
 
 Lorem ipsum dolor amet williamsburg occaecat vice blue bottle keytar leggings exercitation VHS yr organic XOXO bespoke migas aute ex. Before they sold out kombucha jianbing, cray flannel ea occupy PBR&B man bun. Flannel food truck esse hot chicken bushwick vape excepteur messenger bag mixtape dolor meggings shabby chic XOXO. PBR&B ut af nulla. Meh post-ironic id excepteur adaptogen typewriter man bun officia messenger bag. Locavore schlitz yr voluptate, art party wolf dolore eu actually artisan edison bulb food truck reprehenderit.

@@ -1,42 +1,18 @@
 ---
 layout: project
-title: Data for Food
-description: Retrouver les restaurants avec des problèmes d'hygiène grâce aux commentaires TripAdvisor.
-season: 1
-repository: https://github.com/dataforgoodfr/batch1_data-for-food
-image: data-for-food.jpg
+title: Comment donner envie d'utiliser les outils numériques ?
+description:
+image:
 members:
-  - name: Loïc Macherel
-    linkedin: https://fr.linkedin.com/in/loïc-macherel-179904a6
-    role: Data Scientist
-    image: loic-macherel.jpg
+  - name: Personas We Tech Care
 
-  - name: Arthur Imbert
-    twitter: arthur_imbert
-    linkedin: https://www.linkedin.com/in/arthur-imbert-b6887683/
-    github: Henley13
-    role: Data Scientist
-    image: arthur-imbert.jpg
+  - name: Personas SGMAP
 
-  - name: Gilles Cornec
-    twitter:
-    linkedin: https://fr.linkedin.com/in/gilles-cornec-529044b2
-    github:
-    role: Data Scientist
-    image:
+  - name: Personas ANSA
 
-  - name: Pierre-Louis Bithorel
-    twitter:
-    linkedin:
-    github:
-    role: Data Scientist
-    image:
-
-organizations:
-  - name: Ministère de l'Agriculture
-    description: Chaque année, la Direction générale de l’Alimentation effectue des contrôles (inspections) dans tous les établissements de chacun des maillons de la chaîne alimentaire.
-    website: http://agriculture.gouv.fr/surveillance-des-denrees-alimentaires-controle-et-gestion-des-alertes-sanitaires
-    image: logo-ministere-agriculture.png
+  - name: Verbatim
 ---
 
-Plus de 80000 commentaires sur des restaurants ont été scrapés et analysés pour détecter les restaurants insalubres, de manière automatisée par du Natural Language Processing.
+Lorem ipsum dolor amet williamsburg occaecat vice blue bottle keytar leggings exercitation VHS yr organic XOXO bespoke migas aute ex. Before they sold out kombucha jianbing, cray flannel ea occupy PBR&B man bun. Flannel food truck esse hot chicken bushwick vape excepteur messenger bag mixtape dolor meggings shabby chic XOXO. PBR&B ut af nulla. Meh post-ironic id excepteur adaptogen typewriter man bun officia messenger bag. Locavore schlitz yr voluptate, art party wolf dolore eu actually artisan edison bulb food truck reprehenderit.
+
+Shoreditch poutine vegan tofu ex. Hashtag blog ut tempor, ex meh waistcoat. Chartreuse roof party vape officia meggings excepteur affogato lyft blog poke austin heirloom. Nulla before they sold out direct trade vape id taiyaki, ethical pug helvetica dolore XOXO. Normcore YOLO 8-bit dreamcatcher venmo. Viral enim PBR&B deep v, leggings shoreditch commodo incididunt.

@@ -2,7 +2,7 @@
   {% if page.collection %}
     {% assign  document = site[the_collection]  %}
   {% endif %}
-<h2 class="mb-3">Autres projets</h2>
+<h2 class="mb-3">Autres sujets</h2>
 {% for links in document %}
   {% if links.title == page.title %}
     {% unless forloop.first %}
