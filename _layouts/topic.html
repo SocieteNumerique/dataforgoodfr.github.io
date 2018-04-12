@@ -17,14 +17,14 @@ layout: default-topic
       <section id="team">
       <h2 class="animated fadeIn mb-3">Les ressources</h2>
         <div class="row text-center">
-          {% for ressource in page.ressource %}
+          {% for ressource in page.ressources %}
             <div class="col-lg-3 col-md-6 mb-r">
               <div class="card">
                 <div class="avatar mt-4">
                   {% if ressource.image %}
-                  <img src="{{ site.url }}/images/ressource/{{ ressource.image }}">
+                  <img src="{{ site.url }}/images/ressources/{{ ressource.image }}">
                   {% else %}
-                  <img src="{{ site.url }}/images/ressource/default.png">
+                  <img src="{{ site.url }}/images/ressources/default.png">
                   {% endif %}
                 </div>
                 <div class="card-body">
