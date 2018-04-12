@@ -3,7 +3,7 @@ layout: topic
 title: Comment donner envie d'utiliser les outils numériques ?
 description:
 image:
-members:
+ressources:
   - name: Personas We Tech Care
 
   - name: Personas SGMAP

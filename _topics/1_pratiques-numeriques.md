@@ -3,7 +3,7 @@ layout: topic
 title: Quelles sont les pratiques numériques des français ?
 description:
 image: adoptez-moi.jpg
-members:
+ressources:
   - name: Baromètre du numérique
 
   - name: Capacity

@@ -3,7 +3,7 @@ layout: topic
 title: Comment financer ma stratégie locale d'inclusion numérique
 description:
 image:
-members:
+ressources:
   - name: Fiche DLA
 
   - name: Fiche Grande Alliance

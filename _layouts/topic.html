@@ -17,28 +17,28 @@ layout: default-topic
       <section id="team">
       <h2 class="animated fadeIn mb-3">Les ressources</h2>
         <div class="row text-center">
-          {% for member in page.members %}
+          {% for ressource in page.ressource %}
             <div class="col-lg-3 col-md-6 mb-r">
               <div class="card">
                 <div class="avatar mt-4">
-                  {% if member.image %}
-                  <img src="{{ site.url }}/images/members/{{ member.image }}" class="rounded-circle">
+                  {% if ressource.image %}
+                  <img src="{{ site.url }}/images/ressource/{{ ressource.image }}">
                   {% else %}
-                  <img src="{{ site.url }}/images/members/default.png" class="rounded-circle">
+                  <img src="{{ site.url }}/images/ressource/default.png">
                   {% endif %}
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">{{ member.name }}</h4>
-                  <p class="card-text">{{ member.role }}</p>
+                  <h4 class="card-title">{{ ressource.name }}</h4>
+                  <p class="card-text">{{ ressource.role }}</p>
                   <div class="flex-row">
-                    {% if member.twitter %}
-                      <a class="card-link" href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square fa-lg mdb-color-text" aria-hidden="true"></i></a>
+                    {% if ressource.twitter %}
+                      <a class="card-link" href="https://twitter.com/{{ ressource.twitter }}"><i class="fa fa-twitter-square fa-lg mdb-color-text" aria-hidden="true"></i></a>
                     {% endif %}
-                    {% if member.linkedin %}
-                      <a class="card-link" href="{{ member.linkedin }}"><i class="fa fa-linkedin-square fa-lg mdb-color-text" aria-hidden="true"></i></a>
+                    {% if ressource.linkedin %}
+                      <a class="card-link" href="{{ ressource.linkedin }}"><i class="fa fa-linkedin-square fa-lg mdb-color-text" aria-hidden="true"></i></a>
                     {% endif %}
-                    {% if member.github %}
-                      <a class="card-link" href="https://github.com/{{ member.github }}"><i class="fa fa-github-square fa-lg mdb-color-text" aria-hidden="true"></i></a>
+                    {% if ressource.github %}
+                      <a class="card-link" href="https://github.com/{{ ressource.github }}"><i class="fa fa-github-square fa-lg mdb-color-text" aria-hidden="true"></i></a>
                     {% endif %}
                   </div>
                 </div>

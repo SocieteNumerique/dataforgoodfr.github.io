@@ -3,7 +3,7 @@ layout: topic
 title: Qu'est-ce qui est fait ailleurs ?
 description:
 image:
-members:
+ressources:
   - name: Témoignage CD Pyrénées Atlantiques
 
   - name: Témoignage SoNum
