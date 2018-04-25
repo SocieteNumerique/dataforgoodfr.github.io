@@ -1,6 +1,6 @@
 ---
 layout: topic
-title: Quelles sont les pratiques numériques des français ?
+title: Quelles sont les pratiques numériques des Français ?
 description:
 image: picto2.png
 ressources:
@@ -10,7 +10,7 @@ ressources:
   - name: Capacity
     role: Before they sold out kombucha jianbing, cray flannel ea occupy PBR&B man bun.
 
-  - name: Cahiers connexion solidaire
+  - name: Cahiers des connexions solidaires
     role: Shoreditch poutine vegan tofu ex. Hashtag blog ut tempor, ex meh waistcoat.
 
   - name: Étude de la métropole de Lyon
