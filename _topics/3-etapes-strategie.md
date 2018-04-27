@@ -1,6 +1,6 @@
 ---
 layout: topic
-title: Quelles sont les étapes de ma stratégie ?
+title: Prendre la mesure des enjeux de l'inclusion numérique
 description:
 image: picto4.png
 ressources:
