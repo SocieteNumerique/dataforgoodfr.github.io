@@ -1,6 +1,6 @@
 ---
 layout: topic
-title: Comment financer ma stratégie locale d'inclusion numérique
+title: Comment élaborer ma stratégie locale d’inclusion numérique ? 
 description:
 image: picto5.png
 ressources:
