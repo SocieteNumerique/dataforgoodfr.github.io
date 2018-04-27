@@ -1,6 +1,6 @@
 ---
 layout: topic
-title: Qu'est-ce qui est fait ailleurs ?
+title: Découvrir les initiatives d’inclusion numérique dans les territoires
 description:
 image: picto1.png
 ressources:
