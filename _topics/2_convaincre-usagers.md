@@ -1,6 +1,6 @@
 ---
 layout: topic
-title: Comment donner envie d'utiliser les outils numériques ?
+title: Orientations nationales pour l'inclusion numérique
 description:
 image: picto3.png
 ressources:
