@@ -24,9 +24,6 @@ section.dark-section {
 .top-nav-collapse {
     background-color: #fb3 !important;
 }
-.navbar:not(.top-nav-collapse) {
-    background: transparent !important;
-}
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
         background: #fb3 !important;

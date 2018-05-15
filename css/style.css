@@ -1,53 +1,109 @@
-/* Your custom styles */
-.avatar img{
-  max-width: 150px;
-  height: auto;
+/* common */
+html {
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+}
+h1 {    
+    font-size: 4.7rem;
+    font-weight: 900;
+    color: white;
+}
+h1.ss-titre {
+    font-size: 2.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.primary-button {
+    font-size: 2rem;
+    color: white;
+    background-color: #21295E;
+    height: 7.2rem;
+    padding: 2rem;
+    display: flex;
+}
+.primary-button span {
+    margin: auto;
+}
+.primary-button img {
+    height: 2rem;
+    width: auto;
+    margin-left: 1.5rem;
+}
+.primary-button:hover {
+    color: #21295E;
+    background-color: white;
+    border: solid #21295E 1px;
+}
+.primary-button img.inactive,
+.primary-button:hover img.active {
+    display: block;
+}
+.primary-button img.active,
+.primary-button:hover img.inactive {
+    display: none;
 }
 
-.main-wrapper {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-section.dark-section {
-  color: #fff;
-}
-
-:target:before {
-  content:"";
-  display:block;
-  height:74px; /* fixed header height*/
-  margin:-74px 0 0; /* negative fixed header height */
- }
-
-/* For the intro section */
-.top-nav-collapse {
-    background-color: rgba(244,67,54) !important;
+/* navbar */
+.navbar {
+    background: #fff !important;
 }
 .navbar:not(.top-nav-collapse) {
-    background: transparent !important;
+    background: #fff !important;
+}
+.navbar:not(.top-nav-collapse) img{
+    height: 45px;
+}
+.navbar.top-nav-collapse img{
+    height: 35px;
 }
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
         background: rgba(244,67,54) !important;
     }
 }
-h1-header {
-    letter-spacing: 8px;
+
+.accueil {
+    width: 100%;
+    height: 100vh;
 }
-h5-header {
-    letter-spacing: 3px;
+.accueil-fond {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: #513085;
+    background: -moz-linear-gradient(left, #513085 0%, #d24745 50%, #f3bd80 100%);
+    background: -webkit-linear-gradient(left, #513085 0%,#d24745 50%,#f3bd80 100%);
+    background: linear-gradient(to right, #513085 0%,#d24745 50%,#f3bd80 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#513085', endColorstr='#f3bd80',GradientType=1 );
+    opacity: 0.8;
 }
-.hr-light {
-    border-top: 3px solid #fff;
-    width: 80px;
+.accueil-img {
+    width: 80vw;
+    max-width: 1350px;
+    height: auto;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -40vw;
+    z-index: -1;
 }
-@media (max-width: 740px) {
-    .full-height,
-    .full-height body,
-    .full-height header,
-    .full-height header .view {
-        height: 700px;
-    }
+.accueil h1 {
+    position: relative;
+    top: 26%;
+    left: 10%;
+    text-align: center;
+    width: 80%;
+    padding-bottom: 2%;
+}
+.accueil .primary-button {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+main {
+    background-color: white;
 }
  
