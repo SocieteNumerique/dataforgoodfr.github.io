@@ -44,15 +44,16 @@ p.big {
     font-size: 1.6rem;
     font-weight: 100;
 }
-a,
-a:hover {
-    text-decoration: underline;
-    color: inherit;
+a.link,
+a.link:hover {
+    color: inherit !important;
 }
-a:hover {
+a.link:hover {
     opacity: 0.5;
 }
-
+a.underlink {
+    text-decoration: underline;
+}
 .primary-button {
     font-size: 2rem;
     color: white;
@@ -60,8 +61,10 @@ a:hover {
     height: 7.2rem;
     padding: 2rem;
     display: flex;
+    min-width: 200px;
 }
-.primary-button span {
+.primary-button span,
+.secondary-button span {
     margin: auto;
 }
 .primary-button img {
@@ -74,12 +77,31 @@ a:hover {
     background-color: white;
     border: solid #21295E 1px;
 }
-.primary-button img.inactive,
-.primary-button:hover img.active {
+.secondary-button {
+    font-size: 2rem;
+    color: white;
+    background-color: #A6328A;
+    padding: 1rem 2rem !important;
+    display: flex !important;
+}
+.secondary-button img {
+    height: 2rem;
+    width: auto;
+    margin-left: 1.5rem;
+}
+.secondary-button:hover {
+    color: #A6328A!important;
+    background-color: white;
+    border: solid #A6328A 1px;
+}
+img.inactive,
+.primary-button:hover img.active,
+.secondary-button:hover img.active  {
     display: block;
 }
-.primary-button img.active,
-.primary-button:hover img.inactive {
+img.active,
+.primary-button:hover img.inactive,
+.secondary-button:hover img.inactive  {
     display: none;
 }
 .img-dl {
@@ -103,18 +125,21 @@ a:hover {
 .navbar:not(.top-nav-collapse) {
     background: #fff !important;
 }
-.navbar:not(.top-nav-collapse) img{
+.navbar:not(.top-nav-collapse) .navbar-brand img{
     height: 45px;
 }
-.navbar.top-nav-collapse img{
+.navbar.top-nav-collapse .navbar-brand img{
     height: 35px;
 }
-@media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse) {
-        background: rgba(244,67,54) !important;
-    }
+.nav-item {
+    margin: 0 1rem
+}
+.navbar li {
+    font-size: 2.4rem;
+    font-weight: 400;
 }
 
+/*accueil home*/
 .accueil {
     width: 100%;
     height: 100vh;
