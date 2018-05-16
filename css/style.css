@@ -142,11 +142,29 @@ main {
 #contribute-home {
     background-color: #A6328A;
     color: white;
-    padding: 25px 0;
+    padding: 40px 0;
 }
 #contribute-home {
     margin-bottom: -10px;
 }
-#contribute p.big {
+#contribute .col-10,
+#contribute-home .col-10,
+#contribute .dl-block {
+    max-width: 1500px;
+}
+#contribute p.big,
+#contribute-home p.big {
     max-width: 1000px;
+}
+#contribute .row,
+#contribute-home .row {
+    justify-content: center;
+}
+#contribute .col-4 {
+    margin-bottom: 10px;
+}
+#contribute .col-4 div {
+    border: solid 1px;
+    height: 100%;
+    padding: 15px;
 }
