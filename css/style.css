@@ -44,6 +44,15 @@ p.big {
     font-size: 1.6rem;
     font-weight: 100;
 }
+a,
+a:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+a:hover {
+    opacity: 0.5;
+}
+
 .primary-button {
     font-size: 2rem;
     color: white;
@@ -72,6 +81,19 @@ p.big {
 .primary-button img.active,
 .primary-button:hover img.inactive {
     display: none;
+}
+.img-dl {
+    height: 54px;
+    width: auto;
+}
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.big.flex a {
+    margin-left: 0.8rem;
 }
 
 /* navbar */
@@ -147,8 +169,8 @@ main {
 #contribute-home {
     margin-bottom: -10px;
 }
-#contribute .col-10,
-#contribute-home .col-10,
+#contribute .col-11,
+#contribute-home .col-11,
 #contribute .dl-block {
     max-width: 1500px;
 }
@@ -156,15 +178,24 @@ main {
 #contribute-home p.big {
     max-width: 1000px;
 }
+#contribute p.big.flex {
+    flex-wrap: wrap;
+}
 #contribute .row,
 #contribute-home .row {
     justify-content: center;
 }
-#contribute .col-4 {
+#contribute .col-xl-4 {
     margin-bottom: 10px;
 }
-#contribute .col-4 div {
+#contribute .contribute-block {
     border: solid 1px;
     height: 100%;
     padding: 15px;
+    justify-content: space-between;
+}
+.contribute-block .dl-link {
+    text-align: center;
+    margin: 35px auto 0;
+    height: 110px;    
 }
