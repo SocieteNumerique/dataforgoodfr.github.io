@@ -7,11 +7,42 @@ h1 {
     font-size: 4.7rem;
     font-weight: 900;
     color: white;
+    padding: 2rem 0;
 }
 h1.ss-titre {
     font-size: 2.4rem;
     font-weight: 400;
     text-transform: uppercase;
+}
+h2 {
+    font-size: 3.9rem;
+    font-weight: 900;
+    padding: 1rem 0;
+}
+h2.ss-titre,
+h4 {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+h3 {
+    font-size: 2.9rem;
+    font-weight: 400;
+}
+p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+p.big {
+    font-size: 2.1rem;
+    font-weight: 400;
+}
+.small {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.tag {
+    font-size: 1.6rem;
+    font-weight: 100;
 }
 .primary-button {
     font-size: 2rem;
@@ -106,4 +137,16 @@ h1.ss-titre {
 main {
     background-color: white;
 }
- 
+/* contribute */
+#contribute,
+#contribute-home {
+    background-color: #A6328A;
+    color: white;
+    padding: 25px 0;
+}
+#contribute-home {
+    margin-bottom: -10px;
+}
+#contribute p.big {
+    max-width: 1000px;
+}
