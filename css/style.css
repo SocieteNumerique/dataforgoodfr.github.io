@@ -218,6 +218,9 @@ img.active,
     h1 {
         font-size: 3.5rem;
     }
+    h1.ss-titre {
+        font-size: 1.8rem;
+    }
 }
 
 /* toolbox */
