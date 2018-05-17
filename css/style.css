@@ -138,10 +138,34 @@ img.active,
     font-size: 2.4rem;
     font-weight: 400;
 }
+@media (max-width: 991px) {
+    .navbar li {
+    font-size: 1.9rem;
+    }
+}
+@media (max-width: 768px) {
+    .accueil-link {
+        display: none;
+    }
+    .navbar-brand {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+    .navbar-linkcontain {
+        margin: auto;
+    }
+    .navbar-nav {
+        margin:auto;
+    }
+}
 
 /*accueil home*/
 .accueil {
     width: 100%;
+    height: 100vh;
+}
+.accueil .row {
     height: 100vh;
 }
 .accueil-fond {
@@ -165,12 +189,13 @@ img.active,
     margin-left: -40vw;
     z-index: -1;
 }
-.accueil h1 {
+.title {
     position: relative;
-    top: 26%;
-    left: 10%;
-    text-align: center;
+    margin: auto;
     width: 80%;
+}
+.accueil h1 {
+    text-align: center;
     padding-bottom: 2%;
 }
 .accueil .primary-button {
@@ -178,12 +203,36 @@ img.active,
     bottom: 10%;
     left: 50%;
     transform: translate(-50%, 0);
+    min-width: 305px;
+}
+@media (max-width: 450px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h1.ss-titre {
+        font-size: 2rem;
+    }
+}
+
+/* toolbox */
+#toolbox {
+    background-color: #21295e;
 }
 
 
-main {
+/* home */
+#home {
+    background: #F3BD80;
+    background: -moz-linear-gradient(left, #f3bd80 0%, #e89db1 100%);
+    background: -webkit-linear-gradient(left, #f3bd80 0%, #e89db1 100%);
+    background: linear-gradient(to right, #f3bd80 0%, #e89db1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3bd80', endColorstr='#e89db1',GradientType=1 );
+}
+#home .col-md-7 {
     background-color: white;
+    max-width: 1500px;
 }
+
 /* contribute */
 #contribute,
 #contribute-home {
@@ -205,6 +254,11 @@ main {
 }
 #contribute p.big.flex {
     flex-wrap: wrap;
+}
+@media (max-width: 370px) {
+    #contribute .mailto {
+        font-size: 1.9rem
+    }
 }
 #contribute .row,
 #contribute-home .row {

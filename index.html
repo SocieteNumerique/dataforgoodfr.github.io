@@ -4,128 +4,130 @@ layout: default
 
 <!-- Main layout-->
 {% include accueil.html %}
-<main>
-    <section id="toolbox">
+
+<section id="toolbox">
+    <div class="container-fluid">
         <h2 class="text-center">Boîte à outils</h2>
-            <p class="text-center">Retrouvez-ici les outils pour créer votre stratégie</p>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 my-4">
-                    <!--Card-->
-                      <div class="card">
-                        <!--Card image-->
-                        <div class="view overlay hm-white-slight hm-zoom">
+        <p class="text-center">Retrouvez-ici les outils pour créer votre stratégie</p>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-11 my-4">
+                <!--Card-->
+                  <div class="card">
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight hm-zoom">
+                        
+                        <img
+                        
+                        
+                            class="img-fluid"
+                            src="{{ site.url }}/images/orientations.svg"
+                            alt="Orientations nationales pour l’inclusion numérique"
                             
-                            <img
-                            
-                            
-                                class="img-fluid"
-                                src="{{ site.url }}/images/orientations.svg"
-                                alt="Orientations nationales pour l’inclusion numérique"
-                                
-                                sizes="
-                                    (max-width: 991px) 100vw,
-                                    20vw">
-                            </img>
-                            
-                            <a href="{{ site.url }}/boite-outils/orientation">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-
-                        <!--Card content-->
-                        <div class="card-body">
-                            <!--Title-->
-                            <h4 class="card-title">Orientations nationales pour l’inclusion numérique</h4>
-                            <!--Text-->
-                            <p class="card-text"></p>
-                            <a href="/topics/1_pratiques-numeriques.html" class="mdb-color-text mt-1 d-flex flex-row-reverse">
-                              <h5 class="waves-effect p-2">En savoir plus <i class="fa fa-chevron-right"></i></h5>
-                            </a>
-                        </div>
+                            sizes="
+                                (max-width: 991px) 100vw,
+                                20vw">
+                        </img>
+                        
+                        <a href="{{ site.url }}/boite-outils/orientation">
+                            <div class="mask"></div>
+                        </a>
                     </div>
-                    <!--/.Card-->
-                  </div>
-            
-            
-              {% for item in site.topics %}
-                  <div class="col-lg-3 col-md-6 my-4">
-                    <!--Card-->
-                      <div class="card">
-                        <!--Card image-->
-                        <div class="view overlay hm-white-slight hm-zoom">
-                            {% if item.image %}
-                            <img
-                                class="img-fluid"
-                                src="{{ site.url }}/images/topics/{{ item.image }}"
-                                alt="projet-{{ item.title }}"
-                                srcset="
-                                    {{ site.url }}/images/topics/900/{{ item.image }} 900w,
-                                    {{ site.url }}/images/topics/450/{{ item.image }} 450w"
-                                sizes="
-                                    (max-width: 991px) 100vw,
-                                    20vw">
-                            </img>
-                            {% else %}
-                            <img
-                                class="img-fluid"
-                                src="{{ site.url }}/images/topics/{{ item.image }}"
-                                alt="projet-{{ item.title }}"
-                                srcset="
-                                    {{ site.url }}/images/topics/900/default.jpg 900w,
-                                    {{ site.url }}/images/topics/450/default.jpg 450w"
-                                sizes="
-                                    (max-width: 991px) 100vw,
-                                    20vw">
-                            </img>
-                            {% endif %}
-                            <a href="{{ item.url }}">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
 
-                        <!--Card content-->
-                        <div class="card-body">
-                            <!--Title-->
-                            <h4 class="card-title">{{ item.title }}</h4>
-                            <!--Text-->
-                            <p class="card-text">{{ item.description }}</p>
-                            <a href="{{ item.url }}" class="mdb-color-text mt-1 d-flex flex-row-reverse">
-                              <h5 class="waves-effect p-2">En savoir plus <i class="fa fa-chevron-right"></i></h5>
-                            </a>
-                        </div>
-                    </div>
-                    <!--/.Card-->
-                  </div>
-              {% endfor %}
-            </div>
-    </section>
-    <div class="main-wrapper">
-        <div class="container-fluid">
-            <section id="home">
-                <div class="row">
-                    <div class="col-md-8 offset-md-2 my-4">
-                        <h3 class="text-center"> Pourquoi une plateforme de ressources au service de l’inclusion numérique ? </h3>
-                        <p>13 millions de Français sont actuellement en difficulté avec les usages du numérique.  Face à ce constat, le Secrétaire d’Etat chargé du Numérique, Mounir Mahjoubi, a lancé une Stratégie nationale pour un numérique inclusif en décembre 2017 à Bordeaux. L’objectif est d’accompagner celles et ceux qui sont en difficulté face au développement toujours plus rapide des technologies et usages numériques.</p>
-                        <p> Cette plateforme est ainsi issue de l’ensemble des travaux menés durant la Stratégie Nationale pour un Numérique Inclusif et rassemble diverses ressources afin de vous permettre de développer une Stratégie locale d’inclusion numérique. Elle comporte quatre volets : </p>
-                        <p>  - Des éléments d’orientation à l’échelle nationale ; </p>
-                        <p>- Des éléments de contexte sur les usages numériques des Français ; </p>
-                         <p> - Des fiches détaillant chaque étape de la mise en place d’une stratégie locale d’inclusion numérique ;</p>
-                         <p>  - Des fiches bonnes pratiques illustrant ce qui est fait dans les autres territoires. </p>
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Orientations nationales pour l’inclusion numérique</h4>
+                        <!--Text-->
+                        <p class="card-text"></p>
+                        <a href="/topics/1_pratiques-numeriques.html" class="mdb-color-text mt-1 d-flex flex-row-reverse">
+                          <h5 class="waves-effect p-2">En savoir plus <i class="fa fa-chevron-right"></i></h5>
+                        </a>
                     </div>
                 </div>
-           </section>      
-        </div>  
-    </div>
-</main>
-<section id="contribute-home">
-    <div class="row">
-        <div class="col-11">
-            <h2>Ce site est contributif</h2>
-            <p class="big">
-                Vous souhaitez partager votre étude, initiative ou stratégie d’inclusion numérique ?<br/>
-                Ce site est un espace de partage d'outils et de bonnes pratiques entre collectivités locales, services déconcentrés de l’Etat, acteurs de la médiation numérique et de l’intervention sociale, opérateurs de services publics, acteurs associatifs (de la solidarité, de l’éducation populaire, de proximité, etc), médiathèques, bibliothèques....<br/>
-                Si vous avez des méthodes, des outils, des ressources, des retours sur expérience au sein de votre structure que vous pouvez partager, c’est ici que vous pouvez le faire.
-            </p>
+                <!--/.Card-->
+              </div>
+        
+        
+          {% for item in site.topics %}
+              <div class="col-lg-3 col-md-6 col-11 my-4">
+                <!--Card-->
+                  <div class="card">
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight hm-zoom">
+                        {% if item.image %}
+                        <img
+                            class="img-fluid"
+                            src="{{ site.url }}/images/topics/{{ item.image }}"
+                            alt="projet-{{ item.title }}"
+                            srcset="
+                                {{ site.url }}/images/topics/900/{{ item.image }} 900w,
+                                {{ site.url }}/images/topics/450/{{ item.image }} 450w"
+                            sizes="
+                                (max-width: 991px) 100vw,
+                                20vw">
+                        </img>
+                        {% else %}
+                        <img
+                            class="img-fluid"
+                            src="{{ site.url }}/images/topics/{{ item.image }}"
+                            alt="projet-{{ item.title }}"
+                            srcset="
+                                {{ site.url }}/images/topics/900/default.jpg 900w,
+                                {{ site.url }}/images/topics/450/default.jpg 450w"
+                            sizes="
+                                (max-width: 991px) 100vw,
+                                20vw">
+                        </img>
+                        {% endif %}
+                        <a href="{{ item.url }}">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">{{ item.title }}</h4>
+                        <!--Text-->
+                        <p class="card-text">{{ item.description }}</p>
+                        <a href="{{ item.url }}" class="mdb-color-text mt-1 d-flex flex-row-reverse">
+                          <h5 class="waves-effect p-2">En savoir plus <i class="fa fa-chevron-right"></i></h5>
+                        </a>
+                    </div>
+                </div>
+                <!--/.Card-->
+              </div>
+          {% endfor %}
+        </div>
+    </div>  
+</section>
+<section id="home">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-7 col-10 mx-auto my-5 p-5">
+                <h3 class="text-center py-4"> Pourquoi une plateforme de ressources au service de l’inclusion numérique ? </h3>
+                <p>13 millions de Français sont actuellement en difficulté avec les usages du numérique.  Face à ce constat, le Secrétaire d’Etat chargé du Numérique, Mounir Mahjoubi, a lancé une Stratégie nationale pour un numérique inclusif en décembre 2017 à Bordeaux. L’objectif est d’accompagner celles et ceux qui sont en difficulté face au développement toujours plus rapide des technologies et usages numériques.</p>
+                <p> Cette plateforme est ainsi issue de l’ensemble des travaux menés durant la Stratégie Nationale pour un Numérique Inclusif et rassemble diverses ressources afin de vous permettre de développer une Stratégie locale d’inclusion numérique. Elle comporte quatre volets : </p>
+                <p>  - Des éléments d’orientation à l’échelle nationale ; </p>
+                <p>- Des éléments de contexte sur les usages numériques des Français ; </p>
+                <p> - Des fiches détaillant chaque étape de la mise en place d’une stratégie locale d’inclusion numérique ;</p>
+                <p>  - Des fiches bonnes pratiques illustrant ce qui est fait dans les autres territoires. </p>
+            </div>
         </div>
     </div>
+    
+</section>
+<section id="contribute-home">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-11">
+                <h2>Ce site est contributif</h2>
+                <p class="big">
+                    Vous souhaitez partager votre étude, initiative ou stratégie d’inclusion numérique ?<br/>
+                    Ce site est un espace de partage d'outils et de bonnes pratiques entre collectivités locales, services déconcentrés de l’Etat, acteurs de la médiation numérique et de l’intervention sociale, opérateurs de services publics, acteurs associatifs (de la solidarité, de l’éducation populaire, de proximité, etc), médiathèques, bibliothèques....<br/>
+                    Si vous avez des méthodes, des outils, des ressources, des retours sur expérience au sein de votre structure que vous pouvez partager, c’est ici que vous pouvez le faire.
+                </p>
+            </div>
+        </div>
+    </div>    
 </section>
