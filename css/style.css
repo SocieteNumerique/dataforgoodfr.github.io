@@ -139,7 +139,8 @@ img.active,
     font-weight: 400;
 }
 @media (max-width: 991px) {
-    .navbar li {
+    .navbar li,
+    .secondary-button {
     font-size: 1.9rem;
     }
 }
@@ -211,6 +212,11 @@ img.active,
     }
     h1.ss-titre {
         font-size: 2rem;
+    }
+}
+@media (max-width: 365px) {
+    h1 {
+        font-size: 3.5rem;
     }
 }
 
