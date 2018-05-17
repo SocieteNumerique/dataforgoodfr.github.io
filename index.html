@@ -8,96 +8,84 @@ layout: default
 <section id="toolbox">
     <div class="container-fluid">
         <h2 class="text-center">Boîte à outils</h2>
-        <p class="text-center">Retrouvez-ici les outils pour créer votre stratégie</p>
-        <div class="row">
+        <p class="text-center">Retrouvez ici des ressources utiles pour la mise en place de votre stratégie territoriale</p>
+        <div class="row"> 
             <div class="col-lg-3 col-md-6 col-11 my-4">
-                <!--Card-->
-                  <div class="card">
-                    <!--Card image-->
+                <div class="card">
                     <div class="view overlay hm-white-slight hm-zoom">
-                        
-                        <img
-                        
-                        
-                            class="img-fluid"
-                            src="{{ site.url }}/images/orientations.svg"
-                            alt="Orientations nationales pour l’inclusion numérique"
-                            
-                            sizes="
-                                (max-width: 991px) 100vw,
-                                20vw">
-                        </img>
-                        
                         <a href="{{ site.url }}/boite-outils/orientation">
+                            <img class="img-fluid" src="{{ site.url }}/images/orientations.svg" alt="Orientations nationales pour l’inclusion numérique"></img>
                             <div class="mask"></div>
                         </a>
                     </div>
 
-                    <!--Card content-->
                     <div class="card-body">
                         <!--Title-->
                         <h4 class="card-title">Orientations nationales pour l’inclusion numérique</h4>
                         <!--Text-->
                         <p class="card-text"></p>
                         <a href="/topics/1_pratiques-numeriques.html" class="mdb-color-text mt-1 d-flex flex-row-reverse">
-                          <h5 class="waves-effect p-2">En savoir plus <i class="fa fa-chevron-right"></i></h5>
                         </a>
                     </div>
                 </div>
-                <!--/.Card-->
-              </div>
-        
-        
-          {% for item in site.topics %}
-              <div class="col-lg-3 col-md-6 col-11 my-4">
-                <!--Card-->
-                  <div class="card">
-                    <!--Card image-->
+            </div>
+            <div class="col-lg-3 col-md-6 col-11 my-4">
+                <div class="card">
                     <div class="view overlay hm-white-slight hm-zoom">
-                        {% if item.image %}
-                        <img
-                            class="img-fluid"
-                            src="{{ site.url }}/images/topics/{{ item.image }}"
-                            alt="projet-{{ item.title }}"
-                            srcset="
-                                {{ site.url }}/images/topics/900/{{ item.image }} 900w,
-                                {{ site.url }}/images/topics/450/{{ item.image }} 450w"
-                            sizes="
-                                (max-width: 991px) 100vw,
-                                20vw">
-                        </img>
-                        {% else %}
-                        <img
-                            class="img-fluid"
-                            src="{{ site.url }}/images/topics/{{ item.image }}"
-                            alt="projet-{{ item.title }}"
-                            srcset="
-                                {{ site.url }}/images/topics/900/default.jpg 900w,
-                                {{ site.url }}/images/topics/450/default.jpg 450w"
-                            sizes="
-                                (max-width: 991px) 100vw,
-                                20vw">
-                        </img>
-                        {% endif %}
-                        <a href="{{ item.url }}">
+                        <a href="{{ site.url }}/boite-outils/enjeux">
+                            <img class="img-fluid" src="{{ site.url }}/images/enjeux.svg" alt="Prendre la mesure des enjeux de l'inclusion numérique"></img>
                             <div class="mask"></div>
                         </a>
                     </div>
 
-                    <!--Card content-->
                     <div class="card-body">
                         <!--Title-->
-                        <h4 class="card-title">{{ item.title }}</h4>
+                        <h4 class="card-title">Prendre la mesure des enjeux de l'inclusion numérique</h4>
                         <!--Text-->
-                        <p class="card-text">{{ item.description }}</p>
-                        <a href="{{ item.url }}" class="mdb-color-text mt-1 d-flex flex-row-reverse">
-                          <h5 class="waves-effect p-2">En savoir plus <i class="fa fa-chevron-right"></i></h5>
+                        <p class="card-text"></p>
+                        <a href="" class="mdb-color-text mt-1 d-flex flex-row-reverse">
                         </a>
                     </div>
                 </div>
-                <!--/.Card-->
-              </div>
-          {% endfor %}
+            </div>
+            <div class="col-lg-3 col-md-6 col-11 my-4">
+                <div class="card">
+                    <div class="view overlay hm-white-slight hm-zoom">
+                        <a href="{{ site.url }}/boite-outils/strategie">
+                            <img class="img-fluid" src="{{ site.url }}/images/strategie.svg" alt="Comment élaborer ma stratégie locale d’inclusion numérique ?"></img>
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Comment élaborer ma stratégie locale d’inclusion numérique ?</h4>
+                        <!--Text-->
+                        <p class="card-text"></p>
+                        <a href="" class="mdb-color-text mt-1 d-flex flex-row-reverse">
+                        </a>
+                    </div>
+                </div>            
+            </div>
+            <div class="col-lg-3 col-md-6 col-11 my-4">
+                <div class="card">
+                    <div class="view overlay hm-white-slight hm-zoom">
+                        <a href="{{ site.url }}/boite-outils/initiative">
+                            <img class="img-fluid" src="{{ site.url }}/images/initiatives.svg" alt="Découvrir les initiatives d’inclusion numérique dans les territoires"></img>
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Découvrir les initiatives d’inclusion numérique dans les territoires</h4>
+                        <!--Text-->
+                        <p class="card-text"></p>
+                        <a href="" class="mdb-color-text mt-1 d-flex flex-row-reverse">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>  
 </section>

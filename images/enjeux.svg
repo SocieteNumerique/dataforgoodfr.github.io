@@ -1,0 +1,50 @@
+<svg id="Groupe_190" data-name="Groupe 190" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 214.236 168">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-5);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d24745"/>
+      <stop offset="0.997" stop-color="#a6328a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#40529d"/>
+      <stop offset="1" stop-color="#a3b1d7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#513085"/>
+      <stop offset="1" stop-color="#a174ac"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#21295e"/>
+      <stop offset="1" stop-color="#40529d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3bd80"/>
+      <stop offset="1" stop-color="#e89db1"/>
+    </linearGradient>
+  </defs>
+  <path id="Tracé_320" data-name="Tracé 320" class="cls-1" d="M44.951,215.9v83.9H0Z" transform="translate(0 -131.802)"/>
+  <path id="Tracé_321" data-name="Tracé 321" class="cls-2" d="M129.4,200.8l30.733,19.593v70.192H129.4Z" transform="translate(-78.996 -122.584)"/>
+  <path id="Tracé_322" data-name="Tracé 322" class="cls-3" d="M222.3,169.688,259.032,118.7V240.464H222.3Z" transform="translate(-135.71 -72.464)"/>
+  <path id="Tracé_323" data-name="Tracé 323" class="cls-4" d="M330.6,106.8l39.5,13.244V233.2H330.6Z" transform="translate(-201.825 -65.199)"/>
+  <path id="Tracé_324" data-name="Tracé 324" class="cls-5" d="M486.51,168H446V53.793L486.51,0Z" transform="translate(-272.274)"/>
+</svg>
