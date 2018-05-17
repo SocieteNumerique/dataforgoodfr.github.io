@@ -326,7 +326,23 @@ img.active,
 
 /* Footer */
 .page-footer {
-    background-color: white;
+    background-color: white;    
+}
+.page-footer,
+.page-footer a {
+    color: #303030 !important;
+}
+.page-footer img {
+    max-height: 70px;
+}
+.page-footer a,
+.page-footer li {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.page-footer a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
 }
 
 
