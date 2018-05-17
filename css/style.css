@@ -232,6 +232,10 @@ img.active,
     background-color: white;
     max-width: 1500px;
 }
+#home li {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
 
 /* contribute */
 #contribute,
