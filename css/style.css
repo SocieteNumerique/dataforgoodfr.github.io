@@ -136,6 +136,7 @@ img.active,
 #contribute .col-11,
 #contribute-home .col-11,
 #contribute .dl-block,
+.tool-accueil .col-11,
 #pratiques .col-11,
 #inclusion .col-11 {
     max-width: 1200px;
@@ -239,7 +240,7 @@ img.active,
     }
     .navbar:not(.top-nav-collapse) .navbar-brand img{
     width: 100%;
-    margin-bottom: 15px;
+    max-width: 300px;
     }
 }
 @media (min-width: 600px) {
@@ -354,20 +355,13 @@ img.active,
 }
 @media (max-width: 450px) {
     h1 {
-        font-size: 4rem;
-    }
-    h1.ss-titre {
-        font-size: 2rem;
-    }
-}
-@media (max-width: 365px) {
-    h1 {
         font-size: 3.5rem;
     }
     h1.ss-titre {
         font-size: 1.8rem;
     }
 }
+
 
 /* toolbox */
 #toolbox {
@@ -378,6 +372,11 @@ img.active,
     box-shadow: 0px -4px 5px 0px rgba(0,0,0,.16), 0px -4px 10px 0px rgba(0,0,0,.12);
     color: white;
     padding: 7rem 2rem;
+}
+@media (max-width: 768px) {
+    #toolbox {
+       padding-top: 11rem;
+    }    
 }
 #toolbox .row {
     justify-content: center;
