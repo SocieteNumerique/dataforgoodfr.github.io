@@ -42,7 +42,7 @@ p.big {
 }
 .tag {
     font-size: 1.6rem;
-    font-weight: 100;
+    font-weight: 300;
 }
 a.link,
 a.link:hover {
@@ -141,6 +141,9 @@ img.active,
 #inclusion .col-11 {
     max-width: 1200px;
 }
+#cadrage .col-md-8 {
+    max-width: 1000px;
+}
 .card {
     height: 100%;
     justify-content: space-between;
@@ -151,6 +154,11 @@ img.active,
 }
 .dl-link {
     text-align: center;
+}
+#home li,
+.tool-accueil li {
+    font-size: 1.6rem;
+    font-weight: 400;
 }
 
 /* Common tool */
@@ -192,6 +200,12 @@ img.active,
 }
 .blue-font {
     color: #21295e;
+}
+.clearblue-font {
+    color: #b1bde0;
+}
+.white-font {
+    color: white;
 }
 
 /* navbar */
@@ -420,9 +434,38 @@ img.active,
     background-color: white;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 }
-#home li {
-    font-size: 1.6rem;
-    font-weight: 400;
+
+/* orientation */
+.orientation-title {
+    background: #21295e;
+    background: -moz-linear-gradient(left, #21295e 0%, #a3b1d7 100%);
+    background: -webkit-linear-gradient(left, #21295e 0%, #a3b1d7 100%);
+    background: linear-gradient(to right, #21295e 0%, #a3b1d7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21295e', endColorstr='#a3b1d7',GradientType=1 );
+}
+#accueil-orientation::after {
+    background: url("../images/orientations.svg") no-repeat fixed center;
+    background-size: 60%;
+}
+#cadrage {
+    background: #21295e;
+    background: -moz-linear-gradient(left, #21295e 0%, #40529d 100%);
+    background: -webkit-linear-gradient(left, #21295e 0%, #40529d 100%);
+    background: linear-gradient(to right, #21295e 0%, #40529d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21295e', endColorstr='#40529d',GradientType=1 );
+}
+.photo {
+    width: 90%;
+    max-width: 250px;
+}
+#cadrage .big {
+    text-transform: uppercase;
+}
+#gouvernance {
+    background-color: #dfe5ef;
+}
+#rapport {
+    background-color: #b1bde0;
 }
 
 /* enjeux */
