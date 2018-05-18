@@ -467,6 +467,19 @@ img.active,
 #rapport {
     background-color: #b1bde0;
 }
+#gouvernance .card,
+#rapport .card {
+    border-bottom: solid #21295e 10px !important;
+}
+#gouvernance .col-9,
+#rapport .col-9 {
+    max-width: 900px;
+}
+#gouvernance .col-lg-8,
+#rapport .col-lg-8 {
+    height: 370px;
+}
+
 
 /* enjeux */
 .enjeux-title {
