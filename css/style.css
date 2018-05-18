@@ -383,16 +383,15 @@ img.active,
 #toolbox .card {
     height: 100%;
     border-radius: 0;
-    justify-content: space-between;
+    justify-content: center;
 }
 #toolbox .view {
-    height: 60%;
+    height: 180px;
+    margin: auto;
+    padding: 15px;
 }
 #toolbox .view img {
-    width: 70%;
-    margin: 0 15%;
-    height: auto;
-    padding: 15px;  
+    height: 150px; 
 }
 #toolbox .card-body {
     display: flex;
