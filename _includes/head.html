@@ -5,6 +5,18 @@
     <title>Numérique inclusif</title>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/images/favicon.ico">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+	jQuery(window).scroll( function() {
+         if( jQuery(window).scrollTop()>200 ){
+               jQuery('.fleche').addClass( "up" );
+
+         } else {;
+               jQuery('.fleche').removeClass( "up" );
+         }
+      } );
+    </script>
 
     <!-- {% include critical-css.html %} -->
     {% seo %}

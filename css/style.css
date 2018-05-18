@@ -113,8 +113,24 @@ img.active,
 .flex {
     display: flex;
 }
+.wrap {
+    flex-wrap: wrap;
+}
 .big.flex a {
     margin-left: 0.8rem;
+}
+.fleche {
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    height: 54px;
+    display: none;
+}
+.fleche.up {
+    display: block;
+}
+.fleche img{
+    height: 54px;
 }
 #home .col-md-7,
 #contribute .col-11,
@@ -139,22 +155,18 @@ img.active,
 /* Common tool */
 @media (max-width: 768px) {
     .tool-title {
-       padding-top: 120px;
+       padding-top: 170px;
     }    
 }
-@media (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 769px) {
     .tool-title {
-       padding-top: 100px;
-    }
-}
-@media (min-width: 992px) {
-    .tool-title {
-       padding-top: 80px;
+       padding-top: 150px;
     }
 }
 .tool-title {
    display: flex;
-    text-align: center;
+   text-align: center;
+   padding-bottom: 50px;
 }
 .tool-title h1 {
     margin: auto;
@@ -253,11 +265,6 @@ img.active,
 }
 #contribute p.big.flex {
     flex-wrap: wrap;
-}
-@media (max-width: 370px) {
-    #contribute .mailto {
-        font-size: 1.9rem
-    }
 }
 #contribute .row,
 #contribute-home .row {
@@ -370,7 +377,7 @@ img.active,
     -o-box-shadow: 0px -4px 5px 0px rgba(0,0,0,.16), 0px -4px 10px 0px rgba(0,0,0,.12);
     box-shadow: 0px -4px 5px 0px rgba(0,0,0,.16), 0px -4px 10px 0px rgba(0,0,0,.12);
     color: white;
-    padding: 5rem 2rem;
+    padding: 7rem 2rem;
 }
 #toolbox .row {
     justify-content: center;
