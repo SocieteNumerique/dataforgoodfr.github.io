@@ -333,7 +333,7 @@ img.active,
     position: fixed;
     top: 100px;
     left: 50%;
-    margin-left: -40vw;
+    transform: translate(-50%);
     z-index: -1;
 }
 .title {
