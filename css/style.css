@@ -473,11 +473,17 @@ img.active,
 }
 #gouvernance .col-9,
 #rapport .col-9 {
-    max-width: 900px;
+    max-width: 800px;
 }
 #gouvernance .col-lg-8,
 #rapport .col-lg-8 {
     height: 370px;
+}
+#gouvernance .col-9.h-100,
+#rapport .col-9.h-100 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
