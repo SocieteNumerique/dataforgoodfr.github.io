@@ -181,8 +181,6 @@ img.active,
     list-style-type: square;
 }
 
-
-
 /* Common tool */
 @media (max-width: 768px) {
     .tool-title {
@@ -231,6 +229,9 @@ img.active,
 }
 .purple-font {
     color: #a6328a;
+}
+.purple800-font {
+    color: #513085;
 }
 
 /* navbar */
@@ -513,6 +514,17 @@ img.active,
 }
 
 /* strategie */
+.strategie-title {
+    background: #a6328a;
+    background: -moz-linear-gradient(left, #513085 0%, #a6328a 50%, #e89db1 100%);
+    background: -webkit-linear-gradient(left, #513085 0%,#a6328a 50%,#e89db1 100%);
+    background: linear-gradient(to right, #513085 0%,#a6328a 50%,#e89db1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#513085', endColorstr='#e89db1',GradientType=1 );
+}
+#accueil-strategie::after {
+    background: url("../images/strategie.svg") no-repeat fixed center;
+    background-size: 60%;
+}
 #step1,
 #step3,
 #step5 {
@@ -548,4 +560,25 @@ img.active,
 #pratiques .card,
 #inclusion .card {
     border-bottom: solid #d24745 10px !important;
+}
+
+/* initiative */
+.initiative-title {
+    background: #a174ac
+    background: -moz-linear-gradient(left, #a174ac 0%, #513085 100%);
+    background: -webkit-linear-gradient(left, #a174ac 0%, #513085 100%);
+    background: linear-gradient(to right, #a174ac 0%, #513085 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a174ac', endColorstr='#513085',GradientType=1 );
+}
+#accueil-initiative::after {
+    background: url("../images/initiatives.svg") no-repeat fixed center;
+    background-size: 60%;
+}
+.purple-card {
+    background-color: #513085;
+    color: white;
+}
+.logo-struct {
+    background-color: white;
+    border-radius: 10px;
 }

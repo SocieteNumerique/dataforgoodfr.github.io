@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<div class="tool-title initative-title">
+<div class="tool-title initiative-title">
     <div class="container-fluid">
         <div class="row">
-            <h1></h1>
+            <h1>Découvrir les initiatives d'inclusion numérique	</h1>
         </div>
     </div>
 </div>
@@ -17,8 +17,28 @@ layout: default
                 <div class="row">
                     <div class="col-11 max1200">
                         <div class="row">
-                            <div class="col-md-6 col-12"></div>
-                            <div class="col-md-6 col-12"></div>
+                            <div class="col-md-6 col-12">
+                                <p class="big">Divers acteurs ont déjà engagé des initiatives ou des stratégies d’inclusion numérique. </p>
+                                <p>Afin de permettre le partage et la mutualisation de bonnes pratiques, cet espace permet de les documenter.</p>
+                                <p>Venez contribuer et partager vos initiatives !</p>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <p>Vous trouverez ici :</p>
+                                <a href="#strategies-locales" class="primary-button my-5 px-4 row">
+                                    <p class="col-10">les stratégies locales d'inclusion numérique menées par les collectivités territoriales</p>
+                                    <span class="col-2">
+                                        <img class="inactive" src="{{ site.url }}/images/bottom-white.svg"></img>
+                                        <img class="active" src="{{ site.url }}/images/bottom-blue.svg"></img>
+                                    </span>
+                                </a>
+                                <a href="#initiatives-diverses" class="primary-button my-5 px-4 row">
+                                    <p class="col-10">les initiatives en faveur de l'inclusion numérique menées par tout type d'acteur</p>
+                                    <span class="col-2">
+                                        <img class="inactive" src="{{ site.url }}/images/bottom-white.svg"></img>
+                                        <img class="active" src="{{ site.url }}/images/bottom-blue.svg"></img>
+                                    </span>
+                                </a> 
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -26,4 +46,6 @@ layout: default
         </div>
     </div>
 </section>
+{% include initiative/strategies-locales.html %}
+{% include initiative/initiatives-diverses.html %}
 {% include fleche_grey.html %}
