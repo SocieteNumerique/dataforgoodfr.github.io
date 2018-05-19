@@ -259,26 +259,27 @@ img.active,
 .navbar.top-nav-collapse .navbar-brand img{
     height: 40px;
 }
+.navbar-nav {
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+}
 .nav-item {
     margin: 0 1rem
+}
+.nav-link .flex {
+    height: 2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    font-size: 1.6rem;
 }
 .navbar .container {
     max-width: 1500px;
 }
 .navbar li {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     font-weight: 400;
 }
-@media (max-width: 991px) {
-    .navbar li,
-    .secondary-button {
-    font-size: 1.9rem;
-    }
-}
 @media (max-width: 768px) {
-    .accueil-link {
-        display: none;
-    }
     .navbar-brand {
     width: 100%;
     text-align: center;
