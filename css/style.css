@@ -165,6 +165,9 @@ img.active,
     margin-left: 50%;
     transform: translateX(-50%);
 }
+.row .row {
+    margin: 0;
+}
 
 /* Common tool */
 @media (max-width: 768px) {
