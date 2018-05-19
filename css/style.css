@@ -151,6 +151,8 @@ img.active,
 .card h4 {
     text-align: center;
     padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 2rem;
 }
 .dl-link {
     text-align: center;
@@ -485,7 +487,7 @@ img.active,
 }
 #gouvernance .col-card,
 #rapport .col-card {
-    height: 410px;
+    height: 430px;
     max-width: 400px;
 }
 #gouvernance .col-9.h-100,
