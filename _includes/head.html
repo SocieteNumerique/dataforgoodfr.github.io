@@ -8,14 +8,28 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
-	jQuery(window).scroll( function() {
-         if( jQuery(window).scrollTop()>200 ){
-               jQuery('.fleche').addClass( "up" );
+    $(document).ready(function(){
+        jQuery(window).scroll( function() {
+             if( jQuery(window).scrollTop()>200 ){
+                   jQuery('.fleche').addClass( "up" );
 
-         } else {;
-               jQuery('.fleche').removeClass( "up" );
-         }
-      } );
+             } else {;
+                   jQuery('.fleche').removeClass( "up" );
+             }
+        } );
+        jQuery('.more').click(function(){
+            jQuery('.less').removeClass("hidden");
+            jQuery('.more-text').removeClass("hidden");
+            jQuery('.more').addClass("hidden");
+        } );
+        jQuery('.less').click(function(){
+            jQuery('.more').removeClass("hidden");
+            jQuery('.more-text').addClass("hidden");
+            jQuery('.less').addClass("hidden");
+        } );
+    })
+    
+	
     </script>
 
     <!-- {% include critical-css.html %} -->
