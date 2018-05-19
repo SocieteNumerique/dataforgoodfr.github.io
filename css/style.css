@@ -136,6 +136,10 @@ img.active,
     max-width: 1200px;
     margin: auto;
 }
+.max800 {
+    max-width: 800px;
+    margin: auto;
+}
 #cadrage .col-md-8 {
     max-width: 1000px;
 }
@@ -183,12 +187,16 @@ img.active,
 
 /* Common tool */
 @media (max-width: 768px) {
-    .tool-title {
+    .tool-title,
+    .mentions,
+    .accessibilite {
        padding-top: 170px;
     }    
 }
 @media (min-width: 769px) {
-    .tool-title {
+    .tool-title,
+    .mentions,
+    .accessibilite {
        padding-top: 150px;
     }
 }
@@ -581,4 +589,9 @@ img.active,
 .logo-struct {
     background-color: white;
     border-radius: 10px;
+}
+
+/* mentions légales */
+.mentions {
+    
 }
