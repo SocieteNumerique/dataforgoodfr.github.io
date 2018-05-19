@@ -160,6 +160,11 @@ img.active,
     font-size: 1.6rem;
     font-weight: 400;
 }
+.icone-card {
+    height: 84px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
 
 /* Common tool */
 @media (max-width: 768px) {
@@ -475,9 +480,10 @@ img.active,
 #rapport .col-9 {
     max-width: 800px;
 }
-#gouvernance .col-lg-8,
-#rapport .col-lg-8 {
-    height: 370px;
+#gouvernance .col-card,
+#rapport .col-card {
+    height: 410px;
+    max-width: 400px;
 }
 #gouvernance .col-9.h-100,
 #rapport .col-9.h-100 {

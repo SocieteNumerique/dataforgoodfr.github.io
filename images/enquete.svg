@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 71.125 84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-8);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#513085"/>
+      <stop offset="1" stop-color="#a174ac"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.001" y1="0.5" x2="1.001" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#21295e"/>
+      <stop offset="1" stop-color="#40529d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#40529d"/>
+      <stop offset="1" stop-color="#a3b1d7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d24745"/>
+      <stop offset="0.997" stop-color="#a6328a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3bd80"/>
+      <stop offset="1" stop-color="#e89db1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-8" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-5"/>
+  </defs>
+  <g id="Groupe_250" data-name="Groupe 250" transform="translate(-723 -1812)">
+    <path id="Tracé_722" data-name="Tracé 722" class="cls-1" d="M172.6,232.3h20.038L213.287,261Z" transform="translate(576.761 1615.178)"/>
+    <path id="Tracé_723" data-name="Tracé 723" class="cls-2" d="M190.64,34.486,192,36.563h-9.5V22.1Z" transform="translate(568.373 1793.275)"/>
+    <path id="Tracé_724" data-name="Tracé 724" class="cls-3" d="M202.5,135.6h8.217l4.276,8.919Z" transform="translate(551.427 1697.11)"/>
+    <path id="Tracé_725" data-name="Tracé 725" class="cls-4" d="M200.015,0V14.463l-8.156-12.4L190.5,0Z" transform="translate(561.595 1812)"/>
+    <path id="Tracé_726" data-name="Tracé 726" class="cls-5" d="M159.136,141.4l8.217,5.865,7.209,5.147H155.7Z" transform="translate(591.08 1692.196)"/>
+    <path id="Tracé_727" data-name="Tracé 727" class="cls-6" d="M21.9,239.2,57,285.767,0,272.036Z" transform="translate(723 1609.332)"/>
+    <path id="Tracé_728" data-name="Tracé 728" class="cls-7" d="M19.639,487.3,10.2,476l46.887,11.3Z" transform="translate(714.358 1408.698)"/>
+    <path id="Tracé_729" data-name="Tracé 729" class="cls-8" d="M218.719,307.826,186.6,265.2l42.626,30.057Z" transform="translate(564.899 1587.303)"/>
+  </g>
+</svg>

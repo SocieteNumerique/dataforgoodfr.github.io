@@ -1,0 +1,48 @@
+<svg id="Groupe_249" data-name="Groupe 249" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62.521 84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#21295e"/>
+      <stop offset="1" stop-color="#40529d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#513085"/>
+      <stop offset="1" stop-color="#a174ac"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3bd80"/>
+      <stop offset="1" stop-color="#e89db1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d24745"/>
+      <stop offset="0.997" stop-color="#a6328a"/>
+    </linearGradient>
+  </defs>
+  <path id="Tracé_735" data-name="Tracé 735" class="cls-1" d="M98.1,7.513H88.964A7.5,7.5,0,0,0,81.451,0a7.6,7.6,0,0,0-7.513,7.513H64.8V20.577H97.944V7.513Z" transform="translate(-50.18)"/>
+  <path id="Tracé_736" data-name="Tracé 736" class="cls-2" d="M62.521,289.21H0V265Z" transform="translate(0 -205.21)"/>
+  <path id="Tracé_737" data-name="Tracé 737" class="cls-3" d="M62.521,95.5V54.3H51.1V65.717H11.6V54.3H0V96.2Z" transform="translate(0 -42.049)"/>
+  <path id="Tracé_738" data-name="Tracé 738" class="cls-4" d="M62.521,251v24.21L0,251Z" transform="translate(0 -194.368)"/>
+  <rect id="Rectangle_243" data-name="Rectangle 243" class="cls-5" width="42.959" height="3.159" transform="translate(9.792 29.06)"/>
+  <rect id="Rectangle_244" data-name="Rectangle 244" class="cls-5" width="42.959" height="3.159" transform="translate(9.792 37.025)"/>
+  <rect id="Rectangle_245" data-name="Rectangle 245" class="cls-5" width="42.959" height="3.159" transform="translate(9.792 46.185)"/>
+</svg>
