@@ -1,0 +1,362 @@
+/* common */
+html {
+  font-size: .625em;
+  font-size: calc(1em * .625); 
+}
+body {
+  font-size: 1.4em;
+  font-family: 'Lato', sans-serif !important;
+}
+h1 {    
+    font-size: 4.7rem;
+    font-weight: 900;
+    color: white;
+    padding: 2rem 0;
+}
+h1.ss-titre {
+    font-size: 2.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 3.9rem;
+    font-weight: 900;
+    padding: 1rem 0;
+}
+h2.ss-titre,
+h4 {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+h3 {
+    font-size: 2.9rem;
+    font-weight: 400;
+}
+p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+p.big {
+    font-size: 2.1rem;
+    font-weight: 400;
+}
+.small {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.tag {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+a.link,
+a.link:hover {
+    color: inherit !important;
+}
+a.link:hover {
+    opacity: 0.5;
+}
+a.underlink {
+    text-decoration: underline;
+}
+.primary-button {
+    font-size: 1.7rem;
+    color: white;
+    background-color: #21295E;
+    height: 7.2rem;
+    display: flex;
+    min-width: 200px;
+    max-width: 700px;
+    font-weight: 500;
+}
+.primary-button p,
+.primary-button span,
+.secondary-button span {
+    margin: auto;
+}
+.primary-button img {
+    height: 2rem;
+    width: auto;
+    margin-left: 1.5rem;
+}
+.primary-button:hover {
+    color: #21295E;
+    background-color: white;
+    border: solid #21295E 1px;
+}
+.secondary-button {
+    font-size: 2rem;
+    color: white;
+    background-color: #A6328A;
+    padding: 1rem 2rem !important;
+    display: flex !important;
+}
+.secondary-button img {
+    height: 2rem;
+    width: auto;
+    margin-left: 1.5rem;
+}
+.secondary-button:hover {
+    color: #A6328A!important;
+    background-color: white;
+    border: solid #A6328A 1px;
+}
+img.inactive,
+.primary-button:hover img.active,
+.secondary-button:hover img.active  {
+    display: block;
+}
+img.active,
+.primary-button:hover img.inactive,
+.secondary-button:hover img.inactive  {
+    display: none;
+}
+.img-dl {
+    height: 54px;
+    width: auto;
+}
+.flex {
+    display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.big.flex a {
+    margin-left: 0.8rem;
+}
+.fleche {
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    height: 54px;
+    display: none;
+}
+.fleche.up {
+    display: block;
+}
+.fleche img{
+    height: 54px;
+}
+.max1200 {
+    max-width: 1200px;
+    margin: auto;
+}
+.max800 {
+    max-width: 800px;
+    margin: auto;
+}
+#cadrage .col-md-8 {
+    max-width: 1000px;
+}
+.card {
+    height: 100%;
+    justify-content: space-between;
+}
+.card h4 {
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.dl-link {
+    text-align: center;
+}
+#home li,
+.tool-accueil li,
+#step3 li,
+#step5 li,
+#smethodo li {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.icone-card {
+    height: 84px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.row .row {
+    margin: 0;
+}
+.hidden {
+    display:none;
+}
+.more,
+.less {
+    font-size: 3rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+.square {
+    list-style-type: square;
+}
+
+/* Common tool */
+@media (max-width: 768px) {
+    .tool-title,
+    .mentions,
+    .accessibilite {
+       padding-top: 170px;
+    }    
+}
+@media (min-width: 769px) {
+    .tool-title,
+    .mentions,
+    .accessibilite {
+       padding-top: 150px;
+    }
+}
+.tool-title {
+   display: flex;
+   text-align: center;
+   padding-bottom: 50px;
+}
+.tool-title h1 {
+    margin: auto;
+}
+.tool-accueil-title h2 {
+    text-align: center;
+}
+.tool-accueil::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+    top: 0;
+}
+.tool-accueil .row {
+    justify-content: space-around;
+}
+.red-font {
+    color: #d24745;
+}
+.blue-font {
+    color: #21295e;
+}
+.clearblue-font {
+    color: #b1bde0;
+}
+.white-font {
+    color: white;
+}
+.purple-font {
+    color: #a6328a;
+}
+.purple800-font {
+    color: #513085;
+}
+
+/* navbar */
+.navbar {
+    background: #fff !important;
+}
+.navbar:not(.top-nav-collapse) {
+    background: #fff !important;
+}
+.navbar:not(.top-nav-collapse) .navbar-brand img{
+    height: 60px;
+}
+.navbar.top-nav-collapse .navbar-brand img{
+    height: 40px;
+}
+.navbar-nav {
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+}
+.nav-item {
+    margin: 0 1rem
+}
+.nav-link .flex {
+    height: 2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.navbar .container {
+    max-width: 1500px;
+}
+.navbar li {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+@media (max-width: 768px) {
+    .navbar-brand {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+    .navbar-linkcontain {
+        margin: auto;
+    }
+    .navbar-nav {
+        margin:auto;
+    }
+    .navbar:not(.top-nav-collapse) .navbar-brand img{
+    width: 100%;
+    max-width: 300px;
+    }
+}
+@media (min-width: 600px) {
+    .navbar.scrolling-navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+}
+
+/* contribute */
+#contribute,
+#contribute-home {
+    background-color: #A6328A;
+    color: white;
+    padding: 40px 0;
+}
+#contribute-home {
+    margin-bottom: -10px;
+}
+#contribute p.big,
+#contribute-home p.big {
+    max-width: 1000px;
+}
+#contribute p.big.flex {
+    flex-wrap: wrap;
+}
+#contribute .row,
+#contribute-home .row {
+    justify-content: center;
+}
+#contribute .col-xl-4 {
+    margin-bottom: 10px;
+}
+#contribute .contribute-block {
+    border: solid 1px;
+    height: 100%;
+    padding: 15px;
+    justify-content: space-between;
+}
+.contribute-block .dl-link {
+    margin: 35px auto 0;
+    height: 110px;    
+}
+
+/* Footer */
+.page-footer {
+    background-color: white;
+    padding-bottom: 20px;    
+}
+.page-footer,
+.page-footer a {
+    color: #303030 !important;
+}
+.page-footer img {
+    max-height: 70px;
+}
+.page-footer a,
+.page-footer li {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.page-footer a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
