@@ -76,12 +76,17 @@ a.underlink {
 .primary-button img {
     height: 2rem;
     width: auto;
-    margin-left: 1.5rem;
+    margin-left: 1.5rem;    
+    -webkit-transition: transform 2s;
+    transition: transform 2s;
 }
 .primary-button:hover {
     color: #21295E;
     background-color: white;
     border: solid #21295E 1px;
+}
+.primary-button:hover img {
+    transform: translateY(50%);
 }
 .secondary-button {
     font-size: 2rem;
@@ -94,11 +99,16 @@ a.underlink {
     height: 2rem;
     width: auto;
     margin-left: 1.5rem;
+    -webkit-transition: transform 2s;
+    transition: transform 2s;
 }
 .secondary-button:hover {
     color: #A6328A!important;
     background-color: white;
     border: solid #A6328A 1px;
+}
+.secondary-button:hover img {
+    transform: translateY(50%);
 }
 img.inactive,
 .primary-button:hover img.active,
