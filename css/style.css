@@ -58,7 +58,7 @@ a.underlink {
     font-size: 1.7rem;
     color: white;
     background-color: #21295E;
-    height: 7.2rem;
+    height: 4.5rem;
     display: flex;
     min-width: 200px;
     max-width: 700px;
@@ -80,14 +80,14 @@ a.underlink {
     border: solid #21295E 1px;
 }
 .secondary-button {
-    font-size: 2rem;
+    font-size: 1.25rem;
     color: white;
     background-color: #A6328A;
     padding: 1rem 2rem !important;
     display: flex !important;
 }
 .secondary-button img {
-    height: 2rem;
+    height: 1.25rem;
     width: auto;
     margin-left: 1.5rem;
 }
@@ -151,7 +151,7 @@ img.active,
     text-align: center;
     padding: 10px 0;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.5em;
 }
 .dl-link {
     text-align: center;
@@ -161,7 +161,7 @@ img.active,
 #step3 li,
 #step5 li,
 #smethodo li {
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 .icone-card {
@@ -272,7 +272,7 @@ img.active,
     max-width: 1500px;
 }
 .navbar li {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 400;
 }
 @media (max-width: 768px) {
@@ -348,7 +348,7 @@ img.active,
 }
 .page-footer a,
 .page-footer li {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 .page-footer a:hover {
