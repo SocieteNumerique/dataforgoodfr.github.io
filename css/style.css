@@ -70,7 +70,7 @@ a.underlink {
     margin: auto;
 }
 .primary-button img {
-    height: 2rem;
+    height: 1.2rem;
     width: auto;
     margin-left: 1.5rem;    
 }
@@ -400,7 +400,6 @@ img.active,
     left: 50%;
     transform: translate(-50%, 0);
     min-width: 305px;
-    padding: 2rem;
 }
 @media (max-width: 450px) {
     h1 {
@@ -590,6 +589,9 @@ img.active,
 .logo-struct {
     background-color: white;
     border-radius: 10px;
+}
+.transf-none {
+    text-transform: none;
 }
 
 /* mentions légales */
