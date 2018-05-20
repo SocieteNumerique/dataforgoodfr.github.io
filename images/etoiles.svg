@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 725.438 679">
+  <defs>
+    <style>
+      .cls-1, .cls-4, .cls-5, .cls-6 {
+        opacity: 0.5;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #f55f44;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #47e6b1;
+      }
+
+      .cls-4 {
+        fill: #4d8af0;
+      }
+    </style>
+  </defs>
+  <g id="Groupe_322" data-name="Groupe 322" transform="translate(0 0.1)">
+    <g id="Groupe_306" data-name="Groupe 306" class="cls-1" transform="translate(60.152 10.246)">
+      <rect id="Rectangle_327" data-name="Rectangle 327" class="cls-2" width="3.609" height="20.211" transform="translate(8.181)"/>
+      <rect id="Rectangle_328" data-name="Rectangle 328" class="cls-2" width="20.211" height="3.609" transform="translate(0 8.181)"/>
+    </g>
+    <g id="Groupe_307" data-name="Groupe 307" class="cls-1" transform="translate(705.226 431.553)">
+      <rect id="Rectangle_329" data-name="Rectangle 329" class="cls-3" width="3.609" height="20.211" transform="translate(8.181)"/>
+      <rect id="Rectangle_330" data-name="Rectangle 330" class="cls-3" width="20.211" height="3.609" transform="translate(0 8.181)"/>
+    </g>
+    <g id="Groupe_308" data-name="Groupe 308" class="cls-1" transform="translate(148.456 198.162)">
+      <rect id="Rectangle_331" data-name="Rectangle 331" class="cls-3" width="3.609" height="20.211" transform="translate(8.181)"/>
+      <rect id="Rectangle_332" data-name="Rectangle 332" class="cls-3" width="20.211" height="3.609" transform="translate(0 8.421)"/>
+    </g>
+    <g id="Groupe_309" data-name="Groupe 309" class="cls-1" transform="translate(465.579 413.989)">
+      <rect id="Rectangle_333" data-name="Rectangle 333" class="cls-3" width="3.609" height="20.211" transform="translate(8.181)"/>
+      <rect id="Rectangle_334" data-name="Rectangle 334" class="cls-3" width="20.211" height="3.609" transform="translate(0 8.181)"/>
+    </g>
+    <g id="Groupe_310" data-name="Groupe 310" class="cls-1" transform="translate(0 318.467)">
+      <rect id="Rectangle_335" data-name="Rectangle 335" class="cls-3" width="3.609" height="20.211" transform="translate(8.421)"/>
+      <rect id="Rectangle_336" data-name="Rectangle 336" class="cls-3" width="20.211" height="3.609" transform="translate(0 8.421)"/>
+    </g>
+    <path id="Tracé_1084" data-name="Tracé 1084" class="cls-4" d="M123.318,8.081a4.421,4.421,0,0,1-2.406-5.293V2.306h0A2.559,2.559,0,0,0,118.746-.1a2.188,2.188,0,0,0-1.925.962h0c0,.241-.241.241-.241.481a4.422,4.422,0,0,1-5.293,2.406h-.481A2.559,2.559,0,0,0,108.4,5.915a2.188,2.188,0,0,0,.962,1.925h0c.241,0,.241.241.481.241a4.421,4.421,0,0,1,2.406,5.293v.481h0a2.559,2.559,0,0,0,2.165,2.406,2.188,2.188,0,0,0,1.925-.962h0c0-.241.241-.241.241-.481a4.422,4.422,0,0,1,5.293-2.406h.481a2.559,2.559,0,0,0,2.406-2.165,2.188,2.188,0,0,0-.962-1.925h0A.745.745,0,0,1,123.318,8.081Z" transform="translate(152.421 0)"/>
+    <path id="Tracé_1085" data-name="Tracé 1085" class="cls-4" d="M223.018,102.581a4.421,4.421,0,0,1-2.406-5.293v-.481h0a2.559,2.559,0,0,0-2.165-2.406,2.188,2.188,0,0,0-1.925.962h0c0,.241-.241.241-.241.481a4.421,4.421,0,0,1-5.293,2.406h-.481a2.559,2.559,0,0,0-2.406,2.165,2.188,2.188,0,0,0,.962,1.925h0c.241,0,.241.241.481.241a4.421,4.421,0,0,1,2.406,5.293v.481h0a2.559,2.559,0,0,0,2.165,2.406,2.188,2.188,0,0,0,1.925-.962h0c0-.241.241-.241.241-.481a4.421,4.421,0,0,1,5.293-2.406h.481a2.559,2.559,0,0,0,2.406-2.165,2.188,2.188,0,0,0-.962-1.925h0A.84.84,0,0,1,223.018,102.581Z" transform="translate(292.608 132.876)"/>
+    <path id="Tracé_1086" data-name="Tracé 1086" class="cls-5" d="M89.718,252.281a4.422,4.422,0,0,1-2.406-5.293v-.481h0a2.559,2.559,0,0,0-2.165-2.406,2.188,2.188,0,0,0-1.925.962h0c0,.241-.241.241-.241.481a4.422,4.422,0,0,1-5.293,2.406h-.481a2.559,2.559,0,0,0-2.406,2.165,2.188,2.188,0,0,0,.962,1.925h0c.241,0,.241.241.481.241a4.421,4.421,0,0,1,2.406,5.293v.481h0a2.559,2.559,0,0,0,2.165,2.406,2.188,2.188,0,0,0,1.925-.962h0c0-.241.241-.241.241-.481a4.422,4.422,0,0,1,5.293-2.406h.481a2.559,2.559,0,0,0,2.406-2.165,2.188,2.188,0,0,0-.962-1.925h0C89.958,252.281,89.958,252.281,89.718,252.281Z" transform="translate(105.176 343.368)"/>
+    <path id="Tracé_1087" data-name="Tracé 1087" class="cls-4" d="M193.218,283.481a4.422,4.422,0,0,1-2.406-5.293v-.481h0a2.559,2.559,0,0,0-2.165-2.406,2.188,2.188,0,0,0-1.925.962h0c0,.241-.241.241-.241.481a4.422,4.422,0,0,1-5.293,2.406h-.481a2.559,2.559,0,0,0-2.406,2.165,2.188,2.188,0,0,0,.962,1.925h0c.241,0,.241.241.481.241a4.422,4.422,0,0,1,2.406,5.293v.481h0a2.559,2.559,0,0,0,2.165,2.406,2.188,2.188,0,0,0,1.925-.962h0c0-.241.241-.241.241-.481a4.422,4.422,0,0,1,5.293-2.406h.481a2.559,2.559,0,0,0,2.406-2.165,2.188,2.188,0,0,0-.962-1.925h0A.84.84,0,0,0,193.218,283.481Z" transform="translate(250.707 387.238)"/>
+    <circle id="Ellipse_48" data-name="Ellipse 48" class="cls-4" cx="7.218" cy="7.218" r="7.218" transform="translate(225.451 427.944)"/>
+    <circle id="Ellipse_49" data-name="Ellipse 49" class="cls-6" cx="7.218" cy="7.218" r="7.218" transform="translate(322.898 206.343)"/>
+    <circle id="Ellipse_50" data-name="Ellipse 50" class="cls-5" cx="7.218" cy="7.218" r="7.218" transform="translate(508.648 51.872)"/>
+  </g>
+</svg>
