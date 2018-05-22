@@ -222,7 +222,7 @@ img.active,
     position: absolute;
     z-index: -1;
     opacity: 0.2;
-    top: 0;
+    top: 230px;
 }
 .tool-accueil .row {
     justify-content: space-around;
@@ -484,7 +484,6 @@ img.active,
 #accueil-orientation::after {
     background: url("../images/orientations.svg") no-repeat center;
     background-size: 75vh;
-    top: 230px;
 }
 #cadrage {
     background: #21295e;
@@ -542,8 +541,8 @@ img.active,
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#513085', endColorstr='#e89db1',GradientType=1 );
 }
 #accueil-strategie::after {
-    background: url("../images/strategie.svg") no-repeat fixed center;
-    background-size: 60%;
+    background: url("../images/strategie.svg") no-repeat center;
+    background-size: 75vh;
 }
 #step1,
 #step3,
@@ -564,8 +563,9 @@ img.active,
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d24745', endColorstr='#a6328a',GradientType=1 );
 }
 #accueil-enjeux::after {
-    background: url("../images/enjeux.svg") no-repeat fixed center;
-    background-size: 60%;
+    background: url("../images/enjeux.svg") no-repeat center;
+    background-size: 70vh;
+    top: 0;
 }
 #pratiques {
     background-color: #f2b6b6;
@@ -591,8 +591,9 @@ img.active,
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a174ac', endColorstr='#513085',GradientType=1 );
 }
 #accueil-initiative::after {
-    background: url("../images/initiatives.svg") no-repeat fixed center;
-    background-size: 60%;
+    background: url("../images/initiatives.svg") no-repeat center;
+    background-size: 75vh;
+    top: 50px;
 }
 .purple-card {
     background-color: #513085;
