@@ -69,6 +69,7 @@ a.underlink {
 .primary-button span,
 .secondary-button span {
     margin: auto;
+    line-height: 20px;
 }
 .primary-button img {
     height: 1.2rem;
@@ -320,10 +321,6 @@ img.active,
 }
 #contribute p.big.flex {
     flex-wrap: wrap;
-}
-#contribute .row,
-#contribute-home .row {
-    justify-content: center;
 }
 #contribute .col-xl-4 {
     margin-bottom: 10px;
