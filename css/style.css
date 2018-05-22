@@ -182,6 +182,7 @@ img.active,
     font-size: 3rem;
     font-weight: 900;
     cursor: pointer;
+    line-height: 25px;
 }
 .more span,
 .less span {
