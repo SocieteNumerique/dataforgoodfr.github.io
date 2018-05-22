@@ -489,6 +489,13 @@ img.active,
     background: linear-gradient(to right, #21295e 0%, #40529d 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21295e', endColorstr='#40529d',GradientType=1 );
 }
+@media (max-width: 767px) {
+    #accueil-orientation .pr-5,
+    #accueil-orientation .pl-5 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }  
+}
 .photo {
     width: 90%;
     max-width: 250px;
