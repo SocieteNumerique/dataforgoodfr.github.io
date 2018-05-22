@@ -181,6 +181,10 @@ img.active,
     font-weight: 900;
     cursor: pointer;
 }
+.more span,
+.less span {
+    margin: auto;
+}
 .square {
     list-style-type: square;
 }

@@ -19,11 +19,13 @@
         } );
         jQuery('.more').click(function(){
             jQuery('.less').removeClass("hidden");
+            jQuery('.less').addClass("flex");
             jQuery('.more-text').removeClass("hidden");
             jQuery('.more').addClass("hidden");
         } );
         jQuery('.less').click(function(){
             jQuery('.more').removeClass("hidden");
+            jQuery('.more').addClass("flex");
             jQuery('.more-text').addClass("hidden");
             jQuery('.less').addClass("hidden");
         } );
