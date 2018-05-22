@@ -63,6 +63,7 @@ a.underlink {
     min-width: 200px;
     max-width: 700px;
     font-weight: 500;
+    border-radius: 5px;
 }
 .primary-button p,
 .primary-button span,
@@ -221,7 +222,7 @@ img.active,
     height: 100%;
     position: absolute;
     z-index: -1;
-    opacity: 0.2;
+    opacity: 0.1;
     top: 230px;
 }
 .tool-accueil .row {
