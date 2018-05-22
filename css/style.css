@@ -478,8 +478,9 @@ img.active,
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21295e', endColorstr='#a3b1d7',GradientType=1 );
 }
 #accueil-orientation::after {
-    background: url("../images/orientations.svg") no-repeat fixed center;
-    background-size: 60%;
+    background: url("../images/orientations.svg") no-repeat center;
+    background-size: 75vh;
+    top: 230px;
 }
 #cadrage {
     background: #21295e;
