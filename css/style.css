@@ -438,14 +438,17 @@ img.active,
     max-width: 500px;
 }
 #toolbox .card {
-    height: 100%;
     border-radius: 0;
     justify-content: center;
 }
+#toolbox .card:hover h3 {
+    opacity: 0.8;
+}
 #toolbox .view {
-    height: 180px;
+    height: 100%;
     margin: auto;
     padding: 15px;
+    cursor: pointer;
 }
 #toolbox .view img {
     height: 150px; 
