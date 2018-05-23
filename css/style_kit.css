@@ -76,6 +76,7 @@ a.underlink {
     bottom: 10%;
     height: 54px;
     display: none;
+    z-index: 1;
 }
 .fleche.up {
     display: block;
