@@ -185,6 +185,14 @@ ul.red-dot li:before {
     position: relative;
     padding-top: 40px;
 }
+#jaccueille_ancre,
+#jaccompagne-ancre,
+#plusloin_ancre,
+#jediagnostique_ancre,
+#joriente_ancre{
+    position: absolute;
+    top: -50px;
+}
 #jaccueille:after,
 #jaccompagne:after,
 #plusloin:after,
