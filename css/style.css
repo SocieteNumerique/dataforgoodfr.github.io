@@ -349,9 +349,6 @@ img.active,
 .page-footer a {
     color: #303030 !important;
 }
-.page-footer img {
-    max-height: 70px;
-}
 .page-footer a,
 .page-footer li {
     font-size: 1rem;
