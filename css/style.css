@@ -54,6 +54,9 @@ a.link:hover {
 a.underlink {
     text-decoration: underline;
 }
+a.external::after {
+    content: "\0000a0\279A";
+}
 .primary-button {
     font-size: 1.7rem;
     color: white;
