@@ -21,6 +21,7 @@ markdown: kramdown
 collections:
   boite-outils:
     output: true
+    permalink: /:collection/:name
 
 plugins:
   - jekyll-seo-tag
