@@ -19,10 +19,8 @@ lang: fr_FR
 markdown: kramdown
 
 collections:
-  topics:
+  boite-outils:
     output: true
-
-number_of_season: 3
 
 plugins:
   - jekyll-seo-tag
