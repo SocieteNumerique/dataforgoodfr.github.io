@@ -293,7 +293,7 @@ img.active,
     font-size: 1.2rem;
     font-weight: 400;
 }
-@media (max-width: 768px) {
+@media (max-width: 854px) {
     .navbar-brand {
     width: 100%;
     text-align: center;
@@ -315,6 +315,27 @@ img.active,
     padding-top: 20px;
     padding-bottom: 20px;
     }
+}
+@media (max-width: 521px) {
+    .navbar-linkcontain,
+    .navbar-nav {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar-nav li {
+        font-size: 1rem;
+        margin: 0 0.2rem;
+   }
+   .nav-item .contribute-link {
+       padding: 0.5rem 0.8rem !important;
+   }
+   .nav-item .flex {
+       font-size: 1rem;
+   }
+   .nav-item .secondary-button img {
+    height: 1rem;
+    width: auto;
+    margin-left: 0.5rem;
 }
 
 /* contribute */
