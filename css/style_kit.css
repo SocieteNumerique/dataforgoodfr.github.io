@@ -163,6 +163,7 @@ ul.red-dot li:before {
 }
 .logo-head img{
     height: 94px;
+    max-width: 100%;
 }
 .kit-presentation {
     border: solid white 1px;
