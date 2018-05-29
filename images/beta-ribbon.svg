@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="12.190024mm"
-   height="12.160975mm"
-   viewBox="0 0 43.193 43.090067"
+   width="100"
+   height="100"
+   viewBox="0 0 99.999998 99.999996"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -79,8 +79,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6568542"
-     inkscape:cx="14.569389"
-     inkscape:cy="16.65254"
+     inkscape:cx="49.74794"
+     inkscape:cy="66.149967"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -93,9 +93,10 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     units="px">
     <sodipodi:guide
-       position="-1.2652525,3.3618784"
+       position="-1.2652639,3.3618303"
        orientation="-0.70710678,0.70710678"
        id="guide4844" />
   </sodipodi:namedview>
@@ -115,10 +116,10 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0.00427877,-999.2121)">
+     transform="translate(0.00426741,-942.30212)">
     <g
        id="g4818"
-       transform="matrix(0.70711386,-0.70710678,0.70711386,0.70710678,-730.17449,292.59437)"
+       transform="matrix(1.6371029,-1.6409972,1.6371029,1.6409972,-1690.487,-697.56014)"
        inkscape:export-filename="/Users/seiteta/g4818.png"
        inkscape:export-xdpi="345.82999"
        inkscape:export-ydpi="345.82999"
@@ -138,7 +139,7 @@
          id="rect4136"
          style="opacity:1;fill:url(#linearGradient4156);fill-opacity:1;stroke:none;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.30000004;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.60000012, 0.60000012;stroke-dashoffset:0;stroke-opacity:0.66666667"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.12942453;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.25884906, 0.25884906;stroke-dashoffset:0;stroke-opacity:0.66666667"
          id="rect4138"
          width="63.199642"
          height="7.6964884"
