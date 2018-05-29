@@ -486,11 +486,6 @@ img.active,
     border-radius: 0;
     justify-content: center;
 }
-@media (max-width: 396px) {
-    #toolbox .card {
-        padding: 1rem !important;
-    }
-}
 #toolbox .card:hover h3 {
     opacity: 0.8;
 }
