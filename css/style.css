@@ -9,6 +9,11 @@ h1 {
     color: white;
     padding: 1.25rem 0;
 }
+@media (max-width: 407px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
 h1.ss-titre {
     font-size: 1.3rem;
     font-weight: 400;
