@@ -136,7 +136,6 @@ img.active,
   top: 0;
   left: 0;
   border: 0;
-  max-height: 100px;
   z-index: 9999;
 }
 .img-dl {

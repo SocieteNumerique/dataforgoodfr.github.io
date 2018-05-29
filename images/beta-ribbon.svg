@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 99.999998 99.999996"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="beta-ribbon.svg"
+   inkscape:export-filename="/Users/seiteta/Desktop/g4818.png"
+   inkscape:export-xdpi="345.82999"
+   inkscape:export-ydpi="345.82999">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4150"
+       inkscape:collect="always">
+      <stop
+         id="stop4164"
+         offset="0"
+         style="stop-color:#a6328a;stop-opacity:1;" />
+      <stop
+         id="stop4166"
+         offset="1"
+         style="stop-color:#f3bd80;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4150"
+       id="linearGradient4156"
+       x1="16.569305"
+       y1="1036.2803"
+       x2="16.573509"
+       y2="1045.4053"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.4625194,-0.36555374)" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4814"
+       x="-0.029870626"
+       width="1.0597413"
+       y="-0.18932278"
+       height="1.3786457">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.71725848"
+         id="feGaussianBlur4816" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4148">
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30000001;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.6, 0.6;stroke-dashoffset:0;stroke-opacity:0.26666667"
+         id="rect4150"
+         width="53.200272"
+         height="53.165737"
+         x="730.1629"
+         y="706.61774"
+         clip-path="none"
+         transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="49.74794"
+     inkscape:cy="66.149967"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="752"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px">
+    <sodipodi:guide
+       position="-1.2652639,3.3618303"
+       orientation="-0.70710678,0.70710678"
+       id="guide4844" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.00426741,-942.30212)">
+    <g
+       id="g4818"
+       transform="matrix(1.6371029,-1.6409972,1.6371029,1.6409972,-1690.487,-697.56014)"
+       inkscape:export-filename="/Users/seiteta/g4818.png"
+       inkscape:export-xdpi="345.82999"
+       inkscape:export-ydpi="345.82999"
+       clip-path="url(#clipPath4148)">
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4814)"
+         id="rect4768"
+         width="57.629204"
+         height="9.092515"
+         x="-12.093176"
+         y="1035.6184" />
+      <rect
+         y="1035.6184"
+         x="-12.093176"
+         height="9.092515"
+         width="57.629204"
+         id="rect4136"
+         style="opacity:1;fill:url(#linearGradient4156);fill-opacity:1;stroke:none;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.12942453;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.25884906, 0.25884906;stroke-dashoffset:0;stroke-opacity:0.66666667"
+         id="rect4138"
+         width="63.199642"
+         height="7.6964884"
+         x="-15.291614"
+         y="1036.3094"
+         transform="matrix(0.99999991,4.3361627e-4,3.9726605e-4,0.99999992,0,0)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4144"
+         y="1042.7372"
+         x="8.25"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.5px;font-family:'Nexa Bold';-inkscape-font-specification:'Nexa Bold, Bold';fill:#ffffff"
+           y="1042.7372"
+           x="8.25"
+           id="tspan4146"
+           sodipodi:role="line">beta</tspan></text>
+    </g>
+  </g>
+</svg>
