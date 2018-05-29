@@ -306,14 +306,14 @@ img.active,
         margin:auto;
     }
     .navbar:not(.top-nav-collapse) .navbar-brand img{
-    width: 100%;
-    max-width: 300px;
+        width: 100%;
+        max-width: 300px;
     }
 }
 @media (min-width: 600px) {
     .navbar.scrolling-navbar {
-    padding-top: 20px;
-    padding-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 @media (max-width: 521px) {
@@ -333,9 +333,10 @@ img.active,
        font-size: 1rem;
    }
    .nav-item .secondary-button img {
-    height: 1rem;
-    width: auto;
-    margin-left: 0.5rem;
+        height: 1rem;
+        width: auto;
+        margin-left: 0.5rem;
+   }
 }
 
 /* contribute */
@@ -433,15 +434,6 @@ img.active,
     transform: translate(-50%, 0);
     min-width: 305px;
 }
-@media (max-width: 450px) {
-    h1 {
-        font-size: 3.5rem;
-    }
-    h1.ss-titre {
-        font-size: 1.8rem;
-    }
-}
-
 
 /* toolbox */
 #toolbox {
@@ -469,6 +461,11 @@ img.active,
 #toolbox .card {
     border-radius: 0;
     justify-content: center;
+}
+@media (max-width: 396px) {
+    #toolbox .card {
+        padding: 1rem !important;
+    }
 }
 #toolbox .card:hover h3 {
     opacity: 0.8;
