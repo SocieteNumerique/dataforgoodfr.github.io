@@ -37,6 +37,21 @@ p {
     font-size: 1rem;
     font-weight: 400;
 }
+@media (max-width: 518px) {
+    .primary-button p {
+        font-size: 0.8rem;
+        padding-left: 0;
+        padding-right: 0;;
+    }
+    .primary-button.px-4 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .primary-button span {
+        padding-left: 0;
+        padding-right: 0;;
+    }
+}
 p.big {
     font-size: 1.3rem;
     font-weight: 400;
@@ -66,7 +81,7 @@ a.external::after {
     font-size: 1.7rem;
     color: white;
     background-color: #21295E;
-    height: 4.5rem;
+    height: 5rem;
     display: flex;
     min-width: 200px;
     max-width: 700px;
@@ -206,6 +221,11 @@ img.active,
 }
 .square {
     list-style-type: square;
+}
+@media (max-width: 600px) {
+    .px-5 {
+        padding: 0.3rem !important;
+    }
 }
 
 /* Common tool */
@@ -526,8 +546,8 @@ img.active,
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21295e', endColorstr='#40529d',GradientType=1 );
 }
 @media (max-width: 767px) {
-    #accueil-orientation .pr-5,
-    #accueil-orientation .pl-5 {
+    .pr-5,
+    .pl-5 {
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
