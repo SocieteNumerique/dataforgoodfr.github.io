@@ -14,7 +14,7 @@ h1 {
         font-size: 2rem;
     }
 }
-@media (max-width: 329px){
+@media (max-width: 361px){
     .accueil h1 {
         font-size: 1.8rem;
         margin: auto;
@@ -23,7 +23,7 @@ h1 {
         font-size: 1.1rem;
     }
     .accueil .primary-button {
-        bottom: 3%;
+        bottom: 3%!important;
     }
 }
 h1.ss-titre {
@@ -330,33 +330,13 @@ img.active,
     font-weight: 400;
 }
 @media (max-width: 854px) {
-    .navbar-brand {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-    }
-    .navbar-linkcontain {
-        margin: auto;
+    .navbar-linkcontain,
+    .navbar-nav {
+        justify-content: space-around;
+         margin: auto;
     }
     .navbar-nav {
         margin:auto;
-    }
-    .navbar:not(.top-nav-collapse) .navbar-brand img{
-        width: 100%;
-        max-width: 300px;
-    }
-}
-@media (min-width: 600px) {
-    .navbar.scrolling-navbar {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-}
-@media (max-width: 521px) {
-    .navbar-linkcontain,
-    .navbar-nav {
-        width: 100%;
-        justify-content: space-around;
     }
     .navbar-nav li {
         font-size: 1rem;
@@ -373,6 +353,21 @@ img.active,
         width: auto;
         margin-left: 0.5rem;
    }
+   .navbar:not(.top-nav-collapse) .navbar-brand img{
+        width: 100%;
+        max-width: 300px;
+    }
+}
+@media (min-width: 600px) {
+    .navbar.scrolling-navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width : 660px) {
+    .navbar-brand {
+        display: none;
+    }
 }
 
 /* contribute */
