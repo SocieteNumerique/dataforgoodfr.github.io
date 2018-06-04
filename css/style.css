@@ -464,6 +464,7 @@ img.active,
     left: 50%;
     transform: translate(-50%, 0);
     min-width: 305px;
+    max-height: 12%;
 }
 
 /* toolbox */
