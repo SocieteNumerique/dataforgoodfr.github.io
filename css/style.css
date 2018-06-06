@@ -9,7 +9,7 @@ h1 {
     color: white;
     padding: 1.25rem 0;
 }
-@media (max-width: 407px) {
+@media (max-width: 420px) {
     h1 {
         font-size: 2rem;
     }
