@@ -463,12 +463,12 @@ img.active,
     min-width: 305px;
     max-height: 12%;
 }
-@media (min-width: 362px){
+@media (min-width: 421px){
     .accueil .primary-button {
         bottom: 10%;
     }
 }
-@media (max-width: 361px){
+@media (max-width: 420px){
     .accueil .primary-button {
         bottom: 3%!important;
     }
