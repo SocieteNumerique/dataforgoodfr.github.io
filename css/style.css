@@ -22,9 +22,6 @@ h1 {
     .accueil h1.ss-titre {
         font-size: 1.1rem;
     }
-    .accueil .primary-button {
-        bottom: 3%!important;
-    }
 }
 h1.ss-titre {
     font-size: 1.3rem;
@@ -48,21 +45,6 @@ h3 {
 p {
     font-size: 1rem;
     font-weight: 400;
-}
-@media (max-width: 518px) {
-    .primary-button p {
-        font-size: 0.8rem;
-        padding-left: 0;
-        padding-right: 0;;
-    }
-    .primary-button.px-4 {
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-    }
-    .primary-button span {
-        padding-left: 0;
-        padding-right: 0;;
-    }
 }
 p.big {
     font-size: 1.3rem;
@@ -115,6 +97,22 @@ a.external::after {
     color: #21295E;
     background-color: white;
     border: solid #21295E 1px;
+}
+
+@media (max-width: 518px) {
+    .primary-button p {
+        font-size: 0.8rem;
+        padding-left: 0;
+        padding-right: 0;;
+    }
+    .primary-button.px-4 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .primary-button span {
+        padding-left: 0;
+        padding-right: 0;;
+    }
 }
 .secondary-button {
     font-size: 1.25rem;
@@ -465,6 +463,11 @@ img.active,
     transform: translate(-50%, 0);
     min-width: 305px;
     max-height: 12%;
+}
+@media (max-width: 361px){
+    .accueil .primary-button {
+        bottom: 3%!important;
+    }
 }
 
 /* toolbox */
