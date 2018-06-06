@@ -472,6 +472,8 @@ img.active,
     .accueil .primary-button {
         bottom: 3%!important;
     }
+}
+@media (max-width: 320px){
     .title {
     width: 90%;
     margin-top: 80px;
