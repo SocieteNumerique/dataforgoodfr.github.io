@@ -472,6 +472,10 @@ img.active,
     .accueil .primary-button {
         bottom: 3%!important;
     }
+    .title {
+    width: 90%;
+    margin-top: 80px;
+    }
 }
 
 /* toolbox */
