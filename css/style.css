@@ -458,11 +458,15 @@ img.active,
 }
 .accueil .primary-button {
     position: absolute;
-    bottom: 10%;
     left: 50%;
     transform: translate(-50%, 0);
     min-width: 305px;
     max-height: 12%;
+}
+@media (min-width: 362px){
+    .accueil .primary-button {
+        bottom: 10%;
+    }
 }
 @media (max-width: 361px){
     .accueil .primary-button {
