@@ -667,6 +667,10 @@ img.active,
     background-color: #513085;
     color: white;
 }
+.purple2-card {
+    background-color: #a174ac;
+    color: white;
+}
 .logo-struct {
     background-color: white;
     border-radius: 10px;
