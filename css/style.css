@@ -482,7 +482,11 @@ img.active,
 
 /* toolbox */
 #toolbox {
-    background-color: #513085;
+    background: #F3BD80;
+    background: -moz-linear-gradient(left, #f3bd80 0%, #e89db1 100%);
+    background: -webkit-linear-gradient(left, #f3bd80 0%, #e89db1 100%);
+    background: linear-gradient(to right, #f3bd80 0%, #e89db1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3bd80', endColorstr='#e89db1',GradientType=1 );
     -moz-box-shadow: 0px -4px 5px 0px rgba(0,0,0,.16), 0px -4px 10px 0px rgba(0,0,0,.12);
     -webkit-box-shadow: 0px -4px 5px 0px rgba(0,0,0,.16), 0px -4px 10px 0px rgba(0,0,0,.12);
     -o-box-shadow: 0px -4px 5px 0px rgba(0,0,0,.16), 0px -4px 10px 0px rgba(0,0,0,.12);
@@ -530,11 +534,7 @@ img.active,
 
 /* home */
 #home {
-    background: #F3BD80;
-    background: -moz-linear-gradient(left, #f3bd80 0%, #e89db1 100%);
-    background: -webkit-linear-gradient(left, #f3bd80 0%, #e89db1 100%);
-    background: linear-gradient(to right, #f3bd80 0%, #e89db1 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3bd80', endColorstr='#e89db1',GradientType=1 );
+    background-color: #513085;
 }
 #home .col-md-7 {
     background-color: white;
