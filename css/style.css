@@ -158,6 +158,9 @@ img.active,
 .flex {
     display: flex;
 }
+.block {
+    display: block;
+}
 .wrap {
     flex-wrap: wrap;
 }
