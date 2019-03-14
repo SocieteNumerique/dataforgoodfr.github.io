@@ -81,7 +81,8 @@ a.external::after {
     max-width: 250px;
     font-weight: 500;
     border-radius: 5px;
-    align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .primary-button p,
 .primary-button span,
