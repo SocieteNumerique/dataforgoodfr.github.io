@@ -78,7 +78,7 @@ a.external::after {
     height: 5rem;
     display: block;
     min-width: 200px;
-    max-width: 250px;
+    max-width: 700px;
     font-weight: 500;
     border-radius: 5px;
     margin-left: auto;
@@ -113,6 +113,52 @@ a.external::after {
         padding-right: 15px !important;
     }
     .primary-button span {
+        padding-left: 0;
+        padding-right: 0;;
+    }
+}
+.aap-button {
+    font-size: 1.7rem;
+    color: white;
+    background-color: #21295E;
+    height: 5rem;
+    display: block;
+    min-width: 200px;
+    max-width: 250px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.aap-button p,
+.aap-button span,
+.secondary-button span {
+    margin: auto;
+    line-height: 20px;
+}
+.aap-button img {
+    height: 1.2rem;
+    width: auto;
+    margin-left: 1.5rem;
+}
+.aap-button:hover {
+    color: #21295E;
+    background-color: white;
+    border: solid #21295E 1px;
+}
+
+@media (max-width: 518px) {
+    .aap-button p {
+        font-size: 0.8rem;
+        padding-left: 0;
+        padding-right: 0;;
+    }
+    .aap-button.px-4 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .aap-button span {
         padding-left: 0;
         padding-right: 0;;
     }
