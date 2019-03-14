@@ -76,7 +76,7 @@ a.external::after {
     color: white;
     background-color: #21295E;
     height: 5rem;
-    display: block;
+    display: flex;
     min-width: 200px;
     max-width: 700px;
     font-weight: 500;
@@ -183,12 +183,12 @@ a.external::after {
 img.inactive,
 .primary-button:hover img.active,
 .secondary-button:hover img.active  {
-    display: block;
+    display: right;
 }
 img.active,
 .primary-button:hover img.inactive,
 .secondary-button:hover img.inactive  {
-    display: none;
+    display: right;
 }
 .img-ribbon {
   position: absolute;
