@@ -188,7 +188,7 @@ img.inactive,
 img.active,
 .primary-button:hover img.inactive,
 .secondary-button:hover img.inactive  {
-    display: right;
+    display: none;
 }
 .img-ribbon {
   position: absolute;
