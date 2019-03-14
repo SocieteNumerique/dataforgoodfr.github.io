@@ -122,7 +122,7 @@ a.external::after {
     color: white;
     background-color: #21295E;
     height: 5rem;
-    display: block;
+    display: flex;
     min-width: 200px;
     max-width: 250px;
     font-weight: 500;
